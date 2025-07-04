@@ -44,6 +44,11 @@
     .dropdown, .mido, [printbtn]{display: none !important;}
 
     @page{size :A4; margin: 10mm;}
+
+     * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
     
 }
   </style>
@@ -83,7 +88,7 @@
   <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="Enter poster name">
    <button id="LogoutBtn">Logout</button>
         
-  <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg">
+  <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg" data-bs-toggle="tooltip" title="Refresh">
    <img id="dcscLogo" src="imgs/dcscLogo.png" alt="DCSClogo">   </div>
                      
 
@@ -567,7 +572,9 @@ const separated = () => {
   });
 }
 
-
+////
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
 
 </script>
