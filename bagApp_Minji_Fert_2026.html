@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Minjingu_Sulph_Bag_2025</title>
+  <title>Minjingu_Fert_Bag_2026</title>
   <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -91,7 +91,7 @@
 
 <div class="table-responsive" id="cont" style="margin-left: 5%;width:fit-content;">
               <div id="holdTops" style="z-index: 5; position: fixed; top: 0; background-color: white;margin-bottom: 0%;">
-  <h5>Sulphur Bagging Operation 2025_ <i>Minjingu (PUGU)</i> </h5>
+  <h5>Fertilizer Bagging Operation 2026_ <i>Minjingu (PUGU)</i> </h5>
 <div class="d-flex gap-3 mb-2" style="width: fit-content;">
   <div class="dropdown">
     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Project#</button>
@@ -135,7 +135,7 @@
              </div>
            <div id="tableContainer" style="max-height: 80vh; overflow:scroll;margin-top: 7em;margin-bottom: 0;">
   <table table1 id="myTable" class="table table-dark table-striped "> 
-    <caption>SULPHUR OPERATIONS_2025</caption>
+    <caption>FERTILIZER OPERATIONS_2026</caption>
     <thead style="text-align: center">
       <tr>
         <th>SNo</th>
@@ -238,7 +238,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   let selectedIndex = -1;
 
   const SelectAllDataRealtime = () => {
-    const dbRef = ref(db, "Myset_Sulph_Minjingu");
+    const dbRef = ref(db, "Myset_Fert_Minjingu_2026");
     onValue(dbRef, (snapshot) => {
       dateList = [];
       snapshot.forEach(dates => {
@@ -262,7 +262,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   const year = parseInt(dateParts[2], 10);
 
   const currentDate = new Date(year, month, day);
-  const startDate = new Date(2025, 5, 6); // 06 June 2025
+  const startDate = new Date(2026, 5, 6); // 06 June 2026
 
   const firstWeekNumber = 24;
   const diffInMs = currentDate - startDate;
@@ -543,7 +543,7 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
 
   const curentTime = hours + ":" + minutes + ", " + day + " " + month + " " + year;
 
-  const dbRef = ref(db, 'Myset_Sulph_Minjingu');
+  const dbRef = ref(db, 'Myset_Fert_Minjingu_2026');
   push(dbRef, {
     dater: modDate.value,
     ProjectNo: Number(modProjectNo.value),
@@ -560,7 +560,7 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
 
   const recordKey = dateList[selectedIndex].key;
 
-  set(ref(db, 'Myset_Sulph_Minjingu/' + recordKey), {
+  set(ref(db, 'Myset_Fert_Minjingu_2026/' + recordKey), {
     dater: modDate.value,
     ProjectNo: Number(modProjectNo.value),
     bagsDay: Number(modbagsDay.value),
@@ -581,7 +581,7 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
 
     const recordKey = dateList[selectedIndex].key;
 
-    remove(ref(db, 'Myset_Sulph_Minjingu/' + recordKey)).then(() => {
+    remove(ref(db, 'Myset_Fert_Minjingu_2026/' + recordKey)).then(() => {
         modXButton.click();
     });
 };

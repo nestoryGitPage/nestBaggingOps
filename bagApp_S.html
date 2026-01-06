@@ -94,25 +94,25 @@
   <h5>Sulphur Bagging Operation 2025_<i>B/Terminal</i></h5>
 <div class="d-flex gap-3 mb-2" style="width: fit-content;">
   <div class="dropdown">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Project#</button>
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Project#</button>
     <ul class="dropdown-menu" id="projectFilter"></ul>
   </div>
   <div class="dropdown">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Date</button>
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Date</button>
     <ul class="dropdown-menu" id="dateFilter"></ul>
   </div>
   <div class="dropdown">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Poster</button>
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Poster</button>
     <ul class="dropdown-menu" id="posterFilter"></ul>
   </div>
   <div class="dropdown"> 
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">week#</button>
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">week#</button>
     <ul class="dropdown-menu" id="weekNoFilter"></ul>
   </div>
   <div class="dropdown">
-    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">month</button>
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">month</button>
     <ul class="dropdown-menu" id="monthNoFilter"></ul>
-  </div>
+  </div> 
   <div>
     <img id="unfilterImg" src="imgs/unfilter3.png" alt="unfilter_img"  data-bs-toggle="tooltip" title="Unfilter">
   </div>
@@ -381,9 +381,22 @@ function getUniqueValues(colIndex) {
   return Array.from(values);
 }
 
-// Generate checkboxes for a filter dropdown
+// Generate checkboxes for a filter dropdown with a search box
 function createCheckboxes(values, container) {
-  container.innerHTML="";
+  container.innerHTML = "";
+
+  // Search input
+  const searchLi = document.createElement('li');
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.className = 'form-control form-control-sm m-2';
+  searchInput.placeholder = 'Search...';
+  // prevent dropdown from closing when interacting with the search input
+  searchInput.addEventListener('click', (e) => e.stopPropagation());
+  searchInput.addEventListener('keydown', (e) => e.stopPropagation());
+  searchLi.appendChild(searchInput);
+  container.appendChild(searchLi);
+
   values.forEach(value => {
     const li = document.createElement('li');
     const label = document.createElement('label');
@@ -399,6 +412,22 @@ function createCheckboxes(values, container) {
     li.appendChild(label);
     container.appendChild(li);
   });
+
+  // Filter function for search
+  searchInput.addEventListener('input', () => {
+    const filter = searchInput.value.trim().toLowerCase();
+    const items = container.querySelectorAll('li');
+    items.forEach((item, idx) => {
+      // skip the search input li (idx === 0)
+      if (idx === 0) return;
+      const label = item.querySelector('label');
+      const text = label ? label.textContent.trim().toLowerCase() : '';
+      item.style.display = text.includes(filter) ? '' : 'none';
+    });
+  });
+
+  // Prevent dropdowns from closing when interacting with checkboxes
+  container.addEventListener('click', (e) => { e.stopPropagation(); });
 }
 
 // Initialize filters
