@@ -31,7 +31,7 @@
    #LogoutBtn:hover, [printbtn]:hover {background-color: grey;color:white} 
    #LogoutBtn:active, [printbtn]:active {transform: translateY(4px);}
     #relodImg:hover{transform: scale(1.3);background-color: rgb(235, 230, 225);}
-    #relodImg{cursor: pointer; width: 30PX; height: 30PX;position: relative;right: 4em;bottom: 3.1em;}
+    #relodImg{cursor: pointer; width: 30PX; height: 30px;position: absolute;bottom: 3em;left: 41em;}
     .dropdown-menu { max-height: 200px; overflow-y: auto; }
     th { vertical-align: middle; }
     #cc { position: relative; top: px; }
@@ -123,8 +123,16 @@
   <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="poster name">
   <input style=" width:fit-content;" type="number" id="projectBox" class="form-control mb-0" placeholder="enter project#">
    <button id="LogoutBtn">Logout</button>
+
+    <span style="position: relative;bottom: -7px;">
+  <select onchange="if(this.value){window.location=this.value}" style=" border-radius: 10px;width: 7em; ">
+    <option value="">select year..</option>
+    <option value="bagApp_Minji_Sph.html">2025</option>
+    <option value="bagApp_Minji_Sph_2026.html">2026</option>
+  </select> </span>
         
-  <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg" data-bs-toggle="tooltip" title="Refresh">
+
+    <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg" data-bs-toggle="tooltip" title="Refresh">
    <img id="dcscLogo" src="imgs/dcscLogo.png" alt="DCSClogo">  
    <a href="landing.html"> <img id="homeImg" src="imgs/housepng.png" alt="housepng" data-bs-toggle="tooltip" title="Home"> </a>
     
@@ -262,7 +270,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   const year = parseInt(dateParts[2], 10);
 
   const currentDate = new Date(year, month, day);
-  const startDate = new Date(2026, 5, 6); // 06 June 2026
+  const startDate = new Date(2026, 5, 5); // 06 June 2026
 
   const firstWeekNumber = 24;
   const diffInMs = currentDate - startDate;

@@ -3,22 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BagApp/Homepage</title>
+  <title>BagApp_Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
-    #outer{text-align: center;}
-    #holder{display: flex;flex-direction: column;gap: 1em;}
-    body{font-size: larger;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    :root{
+      --bg: #f5f8fb;
+      --card: #ffffff;
+      --accent: #0b5ed7;
+      --muted: #6b7280;
+      --radius: 14px;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#0f172a;background:linear-gradient(180deg,var(--bg),#eef3fb);}
+
+    .site-wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:48px 20px}
+    .hero{background:var(--card);max-width:900px;width:100%;border-radius:var(--radius);padding:36px;text-align:center;box-shadow:0 10px 30px rgba(13,20,30,0.08)}
+    .brand{display:flex;align-items:center;gap:18px;justify-content:center}
+    .logo{width:64px;height:64px;border-radius:10px;object-fit:cover}
+    h1{margin:0;font-size:28px;font-weight:700}
+    .lead{margin:12px 0 22px;color:var(--muted);font-weight:500}
+
+    .links{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+    .card-btn{display:inline-block;padding:14px 20px;border-radius:10px;background:linear-gradient(180deg,var(--accent),#084f9e);color:#fff;text-decoration:none;font-weight:700;box-shadow:0 8px 20px rgba(11,94,215,0.12);transition:transform .14s ease,box-shadow .14s ease}
+    .card-btn:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(11,94,215,0.18)}
+    .card-btn.outline{background:transparent;color:var(--accent);border:1px solid rgba(11,94,215,0.14)}
+    .muted{margin-top:18px;color:var(--muted);font-size:13px}
+
+    @media (max-width:520px){
+      .hero{padding:20px}
+      h1{font-size:20px}
+      .card-btn{width:100%;text-align:center}
+    }
   </style>
 </head>
 <body>
-  <div id="outer">
+  <main class="site-wrap" role="main">
+    <header class="hero" role="region" aria-label="Welcome">
+      <div class="brand">
+        <img src="imgs/dcscLogo.png" alt="logo" class="logo" onerror="this.style.display='none'">
+        <h1>Welcome to <strong>BagApp</strong></h1>
+      </div>
+      <p class="lead">Quickly view bagging operations by terminal and year.</p>
 
-   <b> <h style="background-color: aqua;">WELCOME TO BAGGING OPERATION</h7> </b><br> <br>
-  <div id="holder">
-<div> <a href="BT_opYears.html"> BULK TERMINAL</a> </div>
-<div> <a href="Minjingu_opYears.html">MINJINGU TERMINAL</a> </div>
-  </div>
-  </div>
-  
+      <nav class="links" aria-label="Terminals">
+        <a class="card-btn" href="BT_opYears.html" aria-label="Bulk Terminal">Bulk Terminal</a>
+        <a class="card-btn outline" href="Minjingu_opYears.html" aria-label="Minjingu Terminal">Minjingu Terminal</a>
+      </nav>
+
+      <p class="muted">Tip: Use the terminal pages to filter by week, month or project#. © 2026</p>
+    </header>
+  </main>
 </body>
 </html>
