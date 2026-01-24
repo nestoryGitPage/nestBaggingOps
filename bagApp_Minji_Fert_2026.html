@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    #unfilterImg {cursor: pointer;width: 28px;height: 28px;
-  object-fit: contain;vertical-align: middle;margin: 0 4px;
+     #unfilterImg {cursor: pointer;width: 28px;height: 28px;
+ 
 }
 
 #unfilterImg:active{transform: translateY(3px);}
@@ -18,10 +18,11 @@
     #myTable tfoot td{position: sticky;bottom:0}
     #dayTotal, #nightTotal {border:2px solid green;background-color: rgb(51, 8, 8);color: white;}
     #grandTotal{color:yellow;font-style: italic; font-weight: bolder;border: 2px solid green;background-color: rgb(51, 8, 8);border-radius: 20px;}
-    #dcscLogo{animation:spin 8s linear infinite;position: absolute; width:70px;height:70px; border-radius: 50%;left: 44em;top: 1em; }
-    #homeImg{position: absolute; width:60px;height:60px;left: 49em;top: 1em;cursor: pointer;}
+    #dcscLogo{animation:spin 8s linear infinite;width:70px;height:70px; border-radius: 50%; }
+    #homeImg{width:50px;height:50px;cursor: pointer;}
     #homeImg:active{transform: translateY(4px);}
     #homeImg:hover{transform: scale(1.04);}
+
 @keyframes spin{
       from{transform:rotateY(0deg)}  
       to{transform:rotateY(360deg)}
@@ -31,12 +32,13 @@
    #LogoutBtn:hover, [printbtn]:hover {background-color: grey;color:white} 
    #LogoutBtn:active, [printbtn]:active {transform: translateY(4px);}
     #relodImg:hover{transform: scale(1.3);background-color: rgb(235, 230, 225);}
-    #relodImg{cursor: pointer; width: 30PX; height: 30px;position: absolute;bottom: 3em;left: 41em;}
+    #relodImg{cursor: pointer; width: 30PX; height: 30px;}
     .dropdown-menu { max-height: 200px; overflow-y: auto; }
-    th { vertical-align: middle; }
+    th { vertical-align: middle; white-space: nowrap; }
     #cc { position: relative; top: px; }
-    #tbody1 td { padding-top: 0%; padding-bottom: 0%; height: fit-content; vertical-align: middle; text-align: center; }
-  #myTable caption{visibility: hidden;}
+    #tbody1 td { padding-top: 0%; padding-bottom: 0%; height: fit-content; vertical-align: middle; text-align: center;min-height: 10px;white-space: nowrap; overflow: visible; }
+  #tbody1 th {min-height: 10px;white-space: nowrap; overflow: visible; }
+   #myTable caption{visibility: hidden;}
 
   /* Print Styles */
 @media print {
@@ -83,6 +85,11 @@
 }
 
 }
+
+.table-dark th {
+  background-color: #0f1724; /* row background (example: dark blue/gray) */
+  color: #e8eef8;            /* row text color */
+}
   </style>
 </head>
 <body>
@@ -92,7 +99,8 @@
 <div class="table-responsive" id="cont" style="margin-left: 5%;width:fit-content;">
               <div id="holdTops" style="z-index: 5; position: fixed; top: 0; background-color: white;margin-bottom: 0%;">
   <h5>Fertilizer Bagging Operation 2026_ <i>Minjingu (PUGU)</i> </h5>
-<div class="d-flex gap-3 mb-2" style="width: fit-content;">
+                <div style="display: flex;gap:3em;">
+  <div class="d-flex gap-3 mb-0" style="width: fit-content;">
   <div class="dropdown">
     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Project#</button>
     <ul class="dropdown-menu" id="projectFilter"></ul>
@@ -113,13 +121,35 @@
     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">month</button>
     <ul class="dropdown-menu" id="monthNoFilter"></ul>
   </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">🟠 NAULI</button>
+    <ul class="dropdown-menu" id="orangeFilter"></ul>
+  </div>
+
+</div>
+
+<div style=" margin-top:0px; position: relative; bottom: 22px; display: flex; gap: 2em; align-items: center;justify-content: center;">
   <div>
     <img id="unfilterImg" src="imgs/unfilter3.png" alt="unfilter_img"  data-bs-toggle="tooltip" title="Unfilter">
   </div>
-</div>
+
+  <div>
+ <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg" data-bs-toggle="tooltip" title="Refresh">
+  </div>
+  
+  <div>
+    <a href="landing.html"> <img id="homeImg" src="imgs/housepng.png" alt="housepng" data-bs-toggle="tooltip" title="Home"> </a>
+  </div>
+
+  <div>
+<img id="dcscLogo" src="imgs/dcscLogo.png" alt="DCSClogo">
+  </div>
+  </div>
+
+  </div>
 
                     
-       <div class="mido"  style="display: flex; gap: 5em;">
+         <div class="mido"  style="margin-bottom: 0px; background-color: rgb(175, 175, 240); display: flex; gap: 5em;position: absolute;top: 4.7em;">
   <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="poster name">
   <input style=" width:fit-content;" type="number" id="projectBox" class="form-control mb-0" placeholder="enter project#">
    <button id="LogoutBtn">Logout</button>
@@ -131,18 +161,13 @@
     <option value="bagApp_Minji_Fert_2026.html">2026</option>
   </select> </span>
         
-
-    <img onclick="location.reload()" id="relodImg" src="imgs/refresh2.png" alt="relodImg" data-bs-toggle="tooltip" title="Refresh">
-   <img id="dcscLogo" src="imgs/dcscLogo.png" alt="DCSClogo">  
-   <a href="landing.html"> <img id="homeImg" src="imgs/housepng.png" alt="housepng" data-bs-toggle="tooltip" title="Home"> </a>
-    
   
   </div>
                      
 
              </div>
            <div id="tableContainer" style="max-height: 80vh; overflow:scroll;margin-top: 7em;margin-bottom: 0;">
-  <table table1 id="myTable" class="table table-dark table-striped "> 
+  <table table1 id="myTable" class="table table-dark table-bordered "> 
     <caption>FERTILIZER OPERATIONS_2026</caption>
     <thead style="text-align: center">
       <tr>
@@ -212,6 +237,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="JSobject.js"></script>
 
 <script type="module">
   import { auth, db } from './firebaseS-config.js';
@@ -245,7 +271,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   let tbody1 = document.getElementById("tbody1");
   let selectedIndex = -1;
 
-  const SelectAllDataRealtime = () => {
+ const SelectAllDataRealtime = () => {
     const dbRef = ref(db, "Myset_Fert_Minjingu_2026");
     onValue(dbRef, (snapshot) => {
       dateList = [];
@@ -255,9 +281,72 @@ let monthNoFilter = document.getElementById('monthNoFilter');
       AddAllRecords();
       updateTotals();
       separated(); 
-      callem();
+     if (autoScroll) callem();
+autoScroll = false;
       checkPrjctN();
     });
+
+    // Event delegation for dblclick on bagsDay (column 6) and bagsNight (column 7)
+    tbody1.addEventListener('dblclick', (event) => {
+      const cell = event.target.closest('td');
+      if (!cell) return;
+
+      const cellIndex = cell.cellIndex;  // Use native cellIndex property (more reliable)
+      const recordKey = cell.dataset.recordKey;
+
+      // Check if dblclick is on column 4 (ProjectNo)
+      if (cellIndex === 4) {  // Column 5 (0-indexed as 4)
+        const projectNum = cell.textContent.trim();
+        const projectData = projectNo[projectNum];
+        
+        if (projectData) {
+          const tooltipHTML = `
+            <strong>Project Details</strong><br/>
+            <span>Project #: ${projectNum}</span><br/>
+            <span>Vessel: ${projectData.Vessel_name}</span><br/>
+            <span>Client: ${projectData.Client}</span><br/>
+            <span>Start Date: ${projectData.startDate}</span>
+          `;
+          
+          // Remove any existing tooltip
+          const existingTooltip = document.querySelector('.project-tooltip');
+          if (existingTooltip) existingTooltip.remove();
+          
+          // Create tooltip element
+          const tooltip = document.createElement('div');
+          tooltip.className = 'project-tooltip position-absolute bg-dark text-white p-3 rounded';
+          tooltip.innerHTML = tooltipHTML;
+          tooltip.style.zIndex = '9999';
+          tooltip.style.maxWidth = '300px';
+          tooltip.style.fontSize = '0.85rem';
+          
+          document.body.appendChild(tooltip);
+          
+          // Position tooltip near the cell
+          const rect = cell.getBoundingClientRect();
+          tooltip.style.top = (rect.top + window.scrollY - tooltip.offsetHeight - 10) + 'px';
+          tooltip.style.left = (rect.left + window.scrollX) + 'px';
+          
+          // Auto-remove tooltip after 8 seconds
+          setTimeout(() => tooltip.remove(), 8000);
+        } else {
+          // Show alert if project data not found
+          alert(`Project #${projectNum} details not found in JSobject.js`);
+        }
+      } else if (cellIndex === 5) {  // Column 6 (0-indexed as 5)
+        const newColor = (cell.style.backgroundColor === 'orange') ? '' : 'orange';
+        cell.style.backgroundColor = newColor;
+        if (recordKey) {
+          update(ref(db, 'Myset_Fert_Minjingu_2026/' + recordKey), { bagsDayColor: newColor }).catch(console.error);
+        }
+      } else if (cellIndex === 6) {  // Column 7 (0-indexed as 6)
+        const newColor = (cell.style.backgroundColor === 'orange') ? '' : 'orange';
+        cell.style.backgroundColor = newColor;
+        if (recordKey) {
+          update(ref(db, 'Myset_Fert_Minjingu_2026/' + recordKey), { bagsNightColor: newColor }).catch(console.error);
+        }
+      }
+    }, { once: false });
 
     
   }
@@ -342,6 +431,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   const selectedPosters = Array.from(posterFilter.querySelectorAll('input:checked')).map(cb => cb.value);
   const selectedweekNo = Array.from(weekNoFilter.querySelectorAll('input:checked')).map(cb => cb.value);
   const selectedmonthNo = Array.from(monthNoFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedOrange = Array.from(orangeFilter.querySelectorAll('input:checked')).map(cb => cb.value);
 
   tableRows.forEach(row => {
     const projectText = row.cells[4].textContent;
@@ -350,14 +440,19 @@ let monthNoFilter = document.getElementById('monthNoFilter');
     const weekNoText = row.cells[2].textContent;
     const monthNoText = row.cells[3].textContent;
     
+    // Check if row has orange cells in bagsDay (column 5) or bagsNight (column 6)
+    const bagsDay = row.cells[5];
+    const bagsNight = row.cells[6];
+    const hasOrange = bagsDay.style.backgroundColor === 'orange' || bagsNight.style.backgroundColor === 'orange';
 
     const projectMatch = selectedProjects.length === 0 || selectedProjects.includes(projectText);
     const dateMatch = selectedDates.length === 0 || selectedDates.includes(dateText);
     const posterMatch = selectedPosters.length === 0 || selectedPosters.includes(posterText);
     const weekNoMatch = selectedweekNo.length === 0 || selectedweekNo.includes(weekNoText);
     const monthNoMatch = selectedmonthNo.length === 0 || selectedmonthNo.includes(monthNoText);
+    const orangeMatch = selectedOrange.length === 0 || (selectedOrange.includes('with-orange') && hasOrange) || (selectedOrange.includes('without-orange') && !hasOrange);
 
-    if (projectMatch && dateMatch && posterMatch && weekNoMatch && monthNoMatch) {
+    if (projectMatch && dateMatch && posterMatch && weekNoMatch && monthNoMatch && orangeMatch) {
       row.style.display = '';
     } else {
       row.style.display = 'none';
@@ -405,6 +500,52 @@ function createCheckboxes(values, container) {
   searchLi.appendChild(searchInput);
   container.appendChild(searchLi);
 
+  // Select All / Deselect All buttons
+  const buttonContainerLi = document.createElement('li');
+  buttonContainerLi.style.display = 'flex';
+  buttonContainerLi.style.gap = '0.5rem';
+  buttonContainerLi.style.padding = '0.5rem 0.5rem';
+
+  const selectAllBtn = document.createElement('button');
+  selectAllBtn.className = 'btn btn-sm btn-outline-primary flex-grow-1';
+  selectAllBtn.style.fontSize = '0.75rem';
+  selectAllBtn.style.padding = '0.25rem 0.5rem';
+  selectAllBtn.textContent = 'All';
+  selectAllBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(cb => {
+      if (cb.closest('li').style.display !== 'none') {
+        cb.checked = true;
+      }
+    });
+    filterRows();
+  });
+  buttonContainerLi.appendChild(selectAllBtn);
+
+  const deselectAllBtn = document.createElement('button');
+  deselectAllBtn.className = 'btn btn-sm btn-outline-danger flex-grow-1';
+  deselectAllBtn.style.fontSize = '0.75rem';
+  deselectAllBtn.style.padding = '0.25rem 0.5rem';
+  deselectAllBtn.textContent = 'None';
+  deselectAllBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(cb => {
+      if (cb.closest('li').style.display !== 'none') {
+        cb.checked = false;
+      }
+    });
+    filterRows();
+  });
+  buttonContainerLi.appendChild(deselectAllBtn);
+  container.appendChild(buttonContainerLi);
+
+  // Divider
+  const dividerLi = document.createElement('li');
+  dividerLi.innerHTML = '<hr class="dropdown-divider m-1">';
+  container.appendChild(dividerLi);
+
   values.forEach(value => {
     const li = document.createElement('li');
     const label = document.createElement('label');
@@ -426,8 +567,8 @@ function createCheckboxes(values, container) {
     const filter = searchInput.value.trim().toLowerCase();
     const items = container.querySelectorAll('li');
     items.forEach((item, idx) => {
-      // skip the search input li (idx === 0)
-      if (idx === 0) return;
+      // skip the search input li (idx === 0), select all (idx === 1), none (idx === 2), and divider (idx === 3)
+      if (idx <= 3) return;
       const label = item.querySelector('label');
       const text = label ? label.textContent.trim().toLowerCase() : '';
       item.style.display = text.includes(filter) ? '' : 'none';
@@ -444,6 +585,7 @@ createCheckboxes(getUniqueValues(1), dateFilter);  // Date
 createCheckboxes(getUniqueValues(7), posterFilter); // Poster
 createCheckboxes(getUniqueValues(2), weekNoFilter); // weekNo
 createCheckboxes(getUniqueValues(3), monthNoFilter); // monthNo
+createCheckboxes(['with-orange', 'without-orange'], orangeFilter); // Orange filter
 //
 document.getElementById("unfilterImg").addEventListener("click", function() {
   // Uncheck all filter checkboxes
@@ -452,7 +594,8 @@ document.getElementById("unfilterImg").addEventListener("click", function() {
     "#dateFilter input[type=checkbox], " +
     "#posterFilter input[type=checkbox], " +
     "#weekNoFilter input[type=checkbox], " +
-    "#monthNoFilter input[type=checkbox]"
+    "#monthNoFilter input[type=checkbox], " +
+    "#orangeFilter input[type=checkbox]"
   ).forEach(cb => cb.checked = false); 
   // Show all rows by calling the filter function
  // const tableRows = document.querySelectorAll('#tbody1 tr');
