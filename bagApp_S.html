@@ -778,9 +778,10 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
   const posterInput = document.getElementById("posterInput");
         
   function askForId() {
-    const posterId = prompt("Enter your passcode:");
-
+    const posterId = sessionStorage.getItem('userPasscode');
+    
     if (posterId) {
+      // Use stored passcode from sessionStorage
       const idRef = ref(db, 'UserIds/' + posterId);
 
       get(idRef).then((snapshot) => {
@@ -799,14 +800,13 @@ if (!isAuthorized) {
   document.querySelectorAll('[id^="edit-"]').forEach(btn => btn.disabled = true);
 }
         } else {
-          alert("user not recognized. Try again.");
-          askForId();
+          alert("Session expired. Please go back to landing page and login again.");
         }
       }).catch((error) => {
         console.error("Error fetching ID:", error);
       });
     } else {
-      askForId();
+      alert("No passcode found. Please go back to landing page and login first.");
     }
   }   
 
