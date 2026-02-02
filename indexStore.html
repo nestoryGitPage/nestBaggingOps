@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCSC Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4a5568;
+            --secondary-color: #2d3748;
+            --accent-color: #2b6cb0;
+            --text-color: #e2e8f0;
+            --bg-color: #1a202c;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container-wrapper {
+            width: 100%;
+            max-width: 1200px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header-section img {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+
+        .header-section h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .header-section p {
+            font-size: 1.1em;
+            color: #a0aec0;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .section {
+            background-color: var(--secondary-color);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .card-link {
+            display: flex;
+            align-items: center;
+            background-color: var(--primary-color);
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+        }
+
+        .card-link:hover {
+            transform: translateX(5px);
+            background-color: #3b4454;
+            border-left-color: var(--accent-color);
+        }
+
+        .card-icon {
+            font-size: 2em;
+            color: var(--accent-color);
+            margin-right: 20px;
+            width: 40px;
+            text-align: center;
+        }
+
+    
+
+        .card-text .card-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--text-color);
+            margin: 0;
+        }
+
+        .card-text .card-subtitle {
+            font-size: 0.9em;
+            color: #a0aec0;
+            margin: 0;
+        }
+        
+        .footer-text {
+            text-align: center;
+            color: #a0aec0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="header-section">
+            <img src="imgsBag/dcscLogo.png" alt="DCSC Logo">
+           
+            <p>Management System Dashboard</p>
+        </div>
+
+        <div class="main-content">
+            <div class="section">
+                <h2 class="section-title">Store Reports</h2>
+                <a href="storeReport_daily.html" class="card-link" onclick="sessionStorage.setItem('isAuthenticated','true');">
+                    <div class="card-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <div class="card-text">
+                        <div class="card-title">VIFAA VYA KUAZIMA KUTWA</div>
+                        <div class="card-subtitle">Daily Equipment Report</div>
+                    </div>
+                </a>
+                <a href="storeReport_good1.html" class="card-link" onclick="sessionStorage.setItem('isAuthenticated','true');">
+                    <div class="card-icon"><i class="fas fa-vest-patches"></i></div>
+                    <div class="card-text">
+                        <div class="card-title">REPORT YA KUGAWA UNIFORM</div>
+                        <div class="card-subtitle">Uniform Distribution Report</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Bagging Operations</h2>
+                <a href="landingBag.html" class="card-link">
+                   <div class="card-icon"><i class="fa-sharp-duotone fa-solid fa-bag-shopping"></i></div>
+                    <div class="card-text">
+                        <div class="card-title">BAGGING OPERATIONS</div>
+                        <div class="card-subtitle">Bagapp Website</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-text">
+            © 2026 DCSC Management System.
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+      import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-database.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyAP495Bl7sl2QPpU_oND2Xp0E8hysINkpY",
+        authDomain: "nestounused1.firebaseapp.com",
+        databaseURL: "https://nestounused1-default-rtdb.firebaseio.com",
+        projectId: "nestounused1",
+        storageBucket: "nestounused1.appspot.com",
+        messagingSenderId: "510760073211",
+        appId: "1:510760073211:web:e5726757d052b92405fd5e"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase(app);
+
+      function askForId() {
+        const posterId = prompt("Enter your ID:");
+
+        if (posterId) {
+          const idRef = ref(db, 'UserIds/' + posterId);
+
+          get(idRef).then((snapshot) => {
+            if (snapshot.exists()) {
+              // Store both ID and user name in sessionStorage
+              sessionStorage.setItem('userId', posterId);
+              sessionStorage.setItem('userName', snapshot.val());
+              sessionStorage.setItem('isAuthenticated', 'true');
+            } else {
+              alert("ID not recognized. Try again.");
+              askForId();
+            }
+          }).catch((error) => {
+            console.error("Error fetching ID:", error);
+          });
+        } else {
+          askForId();
+        }
+      }
+
+      window.addEventListener('load', askForId);
+    </script>
+</body>
+</html>

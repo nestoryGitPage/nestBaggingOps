@@ -58,33 +58,7 @@
     import { db } from "./firebaseS-config.js";
     import { ref, get } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-database.js";
 
-    // Function to ask for passcode on landing.html load
-    function askForPasscode() {
-      const passcode = prompt("Enter your passcode:");
-      
-      if (passcode) {
-        const idRef = ref(db, 'UserIds/' + passcode);
-        
-        get(idRef).then((snapshot) => {
-          if (snapshot.exists()) {
-            // Store passcode in sessionStorage for use in other pages
-            sessionStorage.setItem('userPasscode', passcode);
-            sessionStorage.setItem('userName', snapshot.val());
-          } else {
-            alert("Passcode not recognized. Try again.");
-            askForPasscode();
-          }
-        }).catch((error) => {
-          console.error("Error verifying passcode:", error);
-          askForPasscode();
-        });
-      } else {
-        askForPasscode();
-      }
-    }
-    
-    // Ask for passcode immediately
-    askForPasscode();
+   
   </script>
 </body>
 </html>

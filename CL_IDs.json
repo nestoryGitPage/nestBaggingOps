@@ -1,0 +1,7188 @@
+{
+"1":{
+"Name":"ABDALA HASSAN NAINGINIKA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"2":{
+"Name":"ABDALLAH JUMA BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"3":{
+"Name":"JOHN MKUVASA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"4":{
+"Name":"MAUA HAMIS",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"5":{
+"Name":"AMINA ZARHIA MFINANGA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"6":{
+"Name":"ABDULRAZAK BAKARI KUMBUKILA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"7":{
+"Name":"ALHAJI ZABIBU ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"8":{
+"Name":"ALLY HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"9":{
+"Name":"ASHIRI SAIDI SELEMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"10":{
+"Name":"ASHRAFU ALLY ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"11":{
+"Name":"BADRU TWAHIR BUDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"12":{
+"Name":"BARAKA KIVAYE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"13":{
+"Name":"BENEDICT YOHANA HABINAI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"14":{
+"Name":"COSMAS ALLEN AMIRI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"15":{
+"Name":"AHADI ALIKO MWAITELEKE",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"16":{
+"Name":"ABDUL KARIM SHUKURU",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"17":{
+"Name":"FARAJI IDDI MADAFU",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"18":{
+"Name":"LEONARD SAMSON KISENGA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"19":{
+"Name":"KHERY SULEIMAN IDDI",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"20":{
+"Name":"DAUDI CHARLES MAKALA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"21":{
+"Name":"GABRIEL GREYSON MKUBA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"22":{
+"Name":"SAIMON STIVINI SIMKANGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"23":{
+"Name":"HIJA SAID MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"24":{
+"Name":"ABDALLAH SAID SINGO",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"25":{
+"Name":"HASSANI SELEMANI MACHUPA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"26":{
+"Name":"HUSSEIN HEMED KILIMBITE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"27":{
+"Name":"NESTO PENDELESI KITULE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"28":{
+"Name":"OFRAH SILVANUS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"404":{
+"Name":"OMARY MOHAMEDY BORA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"30":{
+"Name":"JUMA SAID LIVAMBWE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"31":{
+"Name":"INNOCENT AWADHI NGOMUO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"32":{
+"Name":"ALMASI DAUDI ELISHA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"33":{
+"Name":"JUMANNE SHABANI SAID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"34":{
+"Name":"ASHIRAFU HARUNA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"35":{
+"Name":"MUSTAFA MOHAMED MAIGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"36":{
+"Name":"AKRAM SIRAJU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"37":{
+"Name":"MASOUD TWALIB SONGAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"38":{
+"Name":"ASHURA HAMIS SHABAN",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"39":{
+"Name":"AMINA YUSUPH",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"40":{
+"Name":"MOHAMED EDWARD DUNIA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"41":{
+"Name":"RIZIKI HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"42":{
+"Name":"NEHEMIA GOODLUCK MAKUNDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"43":{
+"Name":"OCTAVIAN GODLIGHT SWAI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"44":{
+"Name":"BAKARI MRISHO NYEMO",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"45":{
+"Name":"RAJABU SAID SEFU",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"46":{
+"Name":"ISSA HASHIM",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"47":{
+"Name":"ALLY RAJABU MKANGA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"48":{
+"Name":"SAIMON WILLIAM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"49":{
+"Name":"SALIM ZABIBU ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"50":{
+"Name":"HAMAD NASSORO",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"51":{
+"Name":"SHABANI SALEHE SAID",
+"Loc":"",
+"Job":"G/Worker"
+},
+"52":{
+"Name":"SIMON DICKSON",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"53":{
+"Name":"SIMON WILLIAM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"54":{
+"Name":"KARIM SELEMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"55":{
+"Name":"CHARLES PETER HYERA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"56":{
+"Name":"FRANK ZAMEA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"57":{
+"Name":"ISSA MOHAMED MAKUNGANYA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"58":{
+"Name":"JACKSON BENITO MSOVERA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"59":{
+"Name":"NOSHARD MOHAMED MBWANA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"60":{
+"Name":"OMARY RASHID KIUTA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"61":{
+"Name":"RONALDO BENITO SINGAILE",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"62":{
+"Name":"SALMA RAMADHANI KHALID",
+"Loc":"",
+"Job":""
+},
+"63":{
+"Name":"AGUSTINO GALUS STEPHEN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"64":{
+"Name":"ALLY SAID MGAZA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"65":{
+"Name":"ATHUMANI MICHAEL MWITA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"66":{
+"Name":"AYOUB MOHAMEDY NGAKWILA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"67":{
+"Name":"BOAZI KAPENDA MALABE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"68":{
+"Name":"CALISTUS THOMAS MAHUNJA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"69":{
+"Name":"DICKSON HAKALIKA NDIMBO",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"70":{
+"Name":"DOMINICK JONATHAN LAIZER",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"71":{
+"Name":"EBINTON GASPAR MILLANZI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"72":{
+"Name":"FRANK SILVESTA MWAIGOMORE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"73":{
+"Name":"GEORGE KISIKA GOODLUCK",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"74":{
+"Name":"GERVAS SEBASTIAN MICHAEL",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"75":{
+"Name":"HASSANI ZUBERI WAZIRI",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"76":{
+"Name":"HUSSEIN MOHAMED HAMISI",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"77":{
+"Name":"HUSSEIN MOHAMED HUSSEIN",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"78":{
+"Name":"SWAUMU SALEHE MSANGA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"79":{
+"Name":"JAFARI MOHAMED NASSORO",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"80":{
+"Name":"KENNEDY LUKAS MKUMBA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"81":{
+"Name":"MESHACK SOLOLO KAYANGE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"82":{
+"Name":"MOHAMED MALUGU",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"83":{
+"Name":"MUSSA ERIA MADORE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"84":{
+"Name":"MUSSA JUMA MSELE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"85":{
+"Name":"MWITA LUCAS",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"86":{
+"Name":"OMEGA ATHANAS",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"87":{
+"Name":"PETRO JOSEPH PETRO",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"88":{
+"Name":"INNOCENT NAFTALI MJEMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"89":{
+"Name":"SAIMON GEORGE MWITA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"90":{
+"Name":"SELEMANI SAID SOZIGWA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"91":{
+"Name":"SHABANI SELEMANI",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"92":{
+"Name":"STANLEY MTUNDU",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"93":{
+"Name":"SUDI SELEMANI IDDY",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"94":{
+"Name":"ABDALLAH HAMISI HAMISI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"95":{
+"Name":"ABDALLAH KASSIMU NYANJE",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"96":{
+"Name":"ABDUL YAHAYA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"97":{
+"Name":"ABILAI SELEMANI SHABANI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"98":{
+"Name":"ATHUMANI MOHAMEDI SELEGA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"99":{
+"Name":"ATHUMANI SHOMARI NYAGO",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"100":{
+"Name":"HALIDI NASSORO MSHAURI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"101":{
+"Name":"HAMISI KALIMA HAMISI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"102":{
+"Name":"HASSAN MFAUME JUMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"103":{
+"Name":"ABDALLAH ALLY SHEKHE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"104":{
+"Name":"JUMANNE ATHUMANI DILUNGA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"105":{
+"Name":"KASIMU SELEMAN MTAWA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"106":{
+"Name":"MACHIBYA DAUDI DAUDI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"107":{
+"Name":"MBARAKA NOLIYANI KITINYA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"108":{
+"Name":"MOHAMED MBEGU",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"109":{
+"Name":"RAHIM ALLY KIBWANA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"110":{
+"Name":"RAMADHANI JABIL",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"111":{
+"Name":"RAMADHANI MGENI KIZUNDU",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"112":{
+"Name":"RAMADHANI NASSORO MSHAURI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"113":{
+"Name":"SHABANI ABDALLAH MTOZELE",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"114":{
+"Name":"SUDI FIKILA BILALI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"115":{
+"Name":"YAHAYA ABDALLAH LUMALA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"116":{
+"Name":"YASSIN SELEMANI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"117":{
+"Name":"ADOLPHINA KALISTI MTUMBUKA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"118":{
+"Name":"AGATHA BUKUKU AMBINDWILE",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"119":{
+"Name":"BAKARI MOHAMED KALINGA",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"120":{
+"Name":"ASHIRAF SAID NDAGO",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"121":{
+"Name":"RICHARD GOODLUCK THABITI",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"122":{
+"Name":"BESTON P MHAME",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"123":{
+"Name":"ASHURA HASSAN FIMBO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"124":{
+"Name":"ASUMIN ATHUMAN WADI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"125":{
+"Name":"ELIZABETH ALEX SOKA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"126":{
+"Name":"HALIDI RAJABU",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"127":{
+"Name":"FATUMA ALI BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"128":{
+"Name":"HADIJA MUSA ABDALAH",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"129":{
+"Name":"MICHAEL E HOMANJE",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"130":{
+"Name":"HALIMA MUHIDINI NJUIMWAKI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"131":{
+"Name":"HAPPYNESS STANLEY YAKOBO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"132":{
+"Name":"ABDULATIF ALLY MTULYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"133":{
+"Name":"MARIAM MUHIDINI MDOE",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"134":{
+"Name":"JAZAA HAJI MPUTO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"135":{
+"Name":"KHADIJA ALLY HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"136":{
+"Name":"KHADIJA MOHAMED ISSA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"137":{
+"Name":"SALIM TWAHA TINGISHA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"138":{
+"Name":"MARIA TENSONI TWINZI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"139":{
+"Name":"MARIAM IDDY MATEJA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"140":{
+"Name":"JAFARI JUTO MELU",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"141":{
+"Name":"MSINUNE SAID MANGWANGALA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"142":{
+"Name":"MWAJABU ABDALA MAIMBA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"143":{
+"Name":"BONIFACE MASWI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"144":{
+"Name":"MWANAHAMISI JUMA ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"145":{
+"Name":"MWANAHAMISI OMARY BUMBO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"146":{
+"Name":"MWANAISHA EVALIST MANGAYA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"147":{
+"Name":"NAZIFA HAMISI MIRANDU",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"148":{
+"Name":"NURU ISAACK MOROBELE",
+"Loc":"HQ",
+"Job":"Sweeper"
+},
+"149":{
+"Name":"YUSUPHY SALUM KISUA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"150":{
+"Name":"BARIKI MWAKALINGA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"151":{
+"Name":"REHEMA KASSIM KING'ANDILO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"152":{
+"Name":"SAID SELEMANI KISUNDA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"153":{
+"Name":"SALMA MRISHO ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"154":{
+"Name":"SHAKIRA JOHN CHARLES",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"155":{
+"Name":"SIRI HAMISI RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"156":{
+"Name":"SOPHIA HEMEDI MKENDA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"157":{
+"Name":"SWAUMU MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"158":{
+"Name":"DUA ALLY RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"159":{
+"Name":"DOTTO MUSSA",
+"Loc":"PUGU",
+"Job":"Lashing"
+},
+"160":{
+"Name":"ZAKIA KONDO UCHUNGU",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"161":{
+"Name":"ZAWADI SALUMU MWINYIMVUA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"162":{
+"Name":"WEMA SAID LIUTEME",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"163":{
+"Name":"RAMADHANI STAMILI NGWABI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"164":{
+"Name":"MWALAMI MTULIKI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"165":{
+"Name":"ANNAH NICOLAUS MATHIAS",
+"Loc":"PORT",
+"Job":"Sweeper"
+},
+"166":{
+"Name":"HAZINA HASSAN NGASINDA",
+"Loc":"PORT",
+"Job":"Sweeper"
+},
+"167":{
+"Name":"KHADIJA DADI KAWANGA",
+"Loc":"PORT",
+"Job":"Sweeper"
+},
+"168":{
+"Name":"MASELE HAMISI FELUZI",
+"Loc":"PORT",
+"Job":"Sweeper"
+},
+"169":{
+"Name":"STUMAI JUMA",
+"Loc":"PORT",
+"Job":"Sweeper"
+},
+"170":{
+"Name":"DOMINATA HELMANY JOSEPH",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"171":{
+"Name":"ERNEST JUMA LUKANDO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"172":{
+"Name":"IKUPA ANOSISYE MOROBELE",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"173":{
+"Name":"MARY MICHAEL CHEM",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"174":{
+"Name":"MWAJUMA MFAUME KAPIRIMA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"175":{
+"Name":"REHEMA APOLLO CHIDINDA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"176":{
+"Name":"SALAMA RAMADHANI MAKOTA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"177":{
+"Name":"SALHA ALLY LIPONDA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"178":{
+"Name":"TUNU ABDALLAH HAMISI",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"179":{
+"Name":"ZAITUNI ALLI SALIM",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"180":{
+"Name":"ZAMOYONI MOHAMED LIUNDE",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"181":{
+"Name":"ZENA ABDALA KALEGA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"182":{
+"Name":"AZIZA SULTANI PAZI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"183":{
+"Name":"ELIZABETH SYLVESTER MAYUMI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"184":{
+"Name":"MWAJABU SELEMANI SELEGA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"185":{
+"Name":"NEEMA RAMADHANI MIJI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"186":{
+"Name":"NURU SELEMANI SHABANI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"187":{
+"Name":"PAULINA WAZIRI MCHOMVI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"188":{
+"Name":"RAHMA ALLY MBWANA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"189":{
+"Name":"RAI SWAKALA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"190":{
+"Name":"REINATHA MICHAEL CHAKULINGA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"191":{
+"Name":"SADA MOHAMED KIGUMU",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"192":{
+"Name":"SALOME HULANGWA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"193":{
+"Name":"SHAMILA SHABANI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"194":{
+"Name":"SIWATU AMIRI MWASA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"195":{
+"Name":"SOFIA OMARI MTALI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"196":{
+"Name":"TATU OMARI MTALI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"197":{
+"Name":"VIVIANI SERAFINI CONJESTA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"198":{
+"Name":"ZAINABU SALUMU MWINYIMKUU",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"199":{
+"Name":"ZUWENA SULTANI PAZI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"200":{
+"Name":"ABIA COSTANTINO DALU",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"201":{
+"Name":"ADAMU JUMA KISOMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"202":{
+"Name":"LAZARO DAUDI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"203":{
+"Name":"AGNES GIBONS UNDWALE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"204":{
+"Name":"ALSON STEVEN MOSHI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"205":{
+"Name":"STEPHEN JOHN NJUGULA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"206":{
+"Name":"ANNA GODFREY",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"207":{
+"Name":"ALLY ISSA MAFULU",
+"Loc":"B/TERMINAL",
+"Job":"DCG OPERATION"
+},
+"208":{
+"Name":"SHEHANI RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"209":{
+"Name":"ASHA MPANGA JUMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"210":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"211":{
+"Name":"ASMA AWADHI SALEHE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"212":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"213":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"214":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"215":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"216":{
+"Name":"EDINA FILBERT NYAMAYAVO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"217":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"218":{
+"Name":"ELIZABETH GASPER SHAO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"219":{
+"Name":"EMMANUEL SAMWEL",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"220":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"221":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"222":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"223":{
+"Name":"FRANCISCA VALENTINE FRANCISCA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"224":{
+"Name":"GIFT SUNDAY MLOWE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"225":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"226":{
+"Name":"HAJRA SULEIMAN",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"227":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"228":{
+"Name":"HASSANI OMARI DIMOSO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"229":{
+"Name":"HENRY VENANCE MMBAGA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"230":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"231":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"232":{
+"Name":"ISMAIL AZIZI MAGESA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"233":{
+"Name":"ISSA NASSIBU HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"234":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"235":{
+"Name":"JAMILA SULEIMAN MAJENGO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"236":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"237":{
+"Name":"JOHN ADELTUS MDINDILE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"238":{
+"Name":"JORDAN CORNEL SASI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"239":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"240":{
+"Name":"KHADIJA DAUDI MENGO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"241":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"242":{
+"Name":"MARY AMBROSE MKWECHE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"243":{
+"Name":"MAXMILLIAN ROGATE KASMERY",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"244":{
+"Name":"MOHAMED",
+"Loc":"",
+"Job":""
+},
+"245":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"246":{
+"Name":"MWAJUMA SALUM ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"247":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"248":{
+"Name":"MWANAMVUA SALUM MBAI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"249":{
+"Name":"NEEMA AMOS GEKA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"250":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"251":{
+"Name":"NEEMA LEON MASHA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"252":{
+"Name":"NOEL MJEMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"253":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"254":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"255":{
+"Name":"RIDHIWANI RASHIDI NGANJE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"256":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"257":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"258":{
+"Name":"STEVEN JOHN MAKALA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"259":{
+"Name":"TATU RAMADHANI SAID",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"260":{
+"Name":"",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"261":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"262":{
+"Name":"WILIBARD NONJELA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"263":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"264":{
+"Name":"YEKONIA ELIA MWANDOLOMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"265":{
+"Name":"YUNUS HAMZA NGWEMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"266":{
+"Name":"YUSUPH ADEL NGALULA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"267":{
+"Name":"HUMPHREY ANYONE MWAMATANDALA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"268":{
+"Name":"ZAINABU SHABANI MPENJA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"269":{
+"Name":"AWADHI MARIJANI MKOMWA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"270":{
+"Name":"BABWENE ANDASON MWANKUSYE",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"271":{
+"Name":"ELVIS ROBERT SOKO",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"272":{
+"Name":"ESTELINA MGOWOLE",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"273":{
+"Name":"GRACE MWABUKA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"274":{
+"Name":"KARIM ABILAH OMAR",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"275":{
+"Name":"KHALID CHARLES SEMGALAWE",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"276":{
+"Name":"OBADIA MUKAMA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"277":{
+"Name":"RAHMA ZUBERI RAJABU",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"278":{
+"Name":"ROGER MUSYOKA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"279":{
+"Name":"ROSEMARY PETER PAUL",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"280":{
+"Name":"SELEMANI MUSSA MSEDE",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"281":{
+"Name":"VICENT CHACKY",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"282":{
+"Name":"WEMA CHARLES KANKA",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"283":{
+"Name":"ABDALLAH MASOUD",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"284":{
+"Name":"ABUBAKAR RASHID TEMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"285":{
+"Name":"AHMED SHAIBU AHMED",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"286":{
+"Name":"AMON PETER SANGAWE",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"287":{
+"Name":"BARACK JANUARY KARANI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"288":{
+"Name":"BARAKA JAMES",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"289":{
+"Name":"BENSON MODERN MWALWENGELE",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"290":{
+"Name":"DEO DAMAS MNDEME",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"291":{
+"Name":"ELIYA CHARLES MKWEPU",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"292":{
+"Name":"EMMANUEL PETER MATONYA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"293":{
+"Name":"FATUMA HASAN SWAGALA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"294":{
+"Name":"FREDRICK WILFRED MREMA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"295":{
+"Name":"GEOFREY MWAMUNYI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"296":{
+"Name":"IBRAHIM SAID MALASI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"297":{
+"Name":"ISAYA RICHARD",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"298":{
+"Name":"JAMES JOHANESS KABWEZA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"299":{
+"Name":"JEREMIAH LUCAS CHACHA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"300":{
+"Name":"KELVIN FRANK",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"301":{
+"Name":"KELVIN JOHN KANUTI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"302":{
+"Name":"LILIAN PETER SHINTA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"303":{
+"Name":"MARIAM SALEHE MYONGA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"304":{
+"Name":"MWAMVUA DUNIA MFAUME",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"305":{
+"Name":"OMEGA JACKSON MAHINYA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"306":{
+"Name":"PATRICK JOSEPH",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"307":{
+"Name":"VERONICA RICHARD MITEGO",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"308":{
+"Name":"WILLIAM REUBEN",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"309":{
+"Name":"ADELAIDA METHOD MWIGA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"310":{
+"Name":"ALLY TWASI SELEMANI",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"311":{
+"Name":"BROWN RICHARD WILLIAM",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"312":{
+"Name":"CECILIA YUSUPH MGONGOLWA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"313":{
+"Name":"DAYARI ISMAIL MATOLA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"314":{
+"Name":"ELIZABETH JOHN MWAKISAVANGA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"315":{
+"Name":"FATUMA RAMADHANI OMARY",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"316":{
+"Name":"HELLEN FESTO MOLLEL",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"317":{
+"Name":"IBRAHIM RASHID MSAGO",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"318":{
+"Name":"MACKDONALD EPHRAIM KANGALAWE",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"319":{
+"Name":"MAUA HAMZA KWEMBE",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"320":{
+"Name":"PASCHAL HAULE",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"321":{
+"Name":"PETER DICKSON MAKALI",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"322":{
+"Name":"PREY MNARO MINJA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"323":{
+"Name":"PRISCAR KISESA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"324":{
+"Name":"SHARIFU MATHEW",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"325":{
+"Name":"SOZI OMARI KIMWERI",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"326":{
+"Name":"SUBIRA DEO MWAKASEGE",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"327":{
+"Name":"VASELISTA MICHAEL NJOZI",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"328":{
+"Name":"AGAPITY MAGINGA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"329":{
+"Name":"FRANK MAHUNDO",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"330":{
+"Name":"ANDREW CHAULECHI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"331":{
+"Name":"ANTHONY ALLY MTENGA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"332":{
+"Name":"ANTHONY FRANCIS NYANDA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"333":{
+"Name":"BLESSING SAMWELI POTEZA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"334":{
+"Name":"CHARLES SIMON",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"335":{
+"Name":"CHARLES STEVEN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"336":{
+"Name":"DANIEL EDWARD MAKANGA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"337":{
+"Name":"DENIS JOHN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"338":{
+"Name":"ELISHA JOHN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"339":{
+"Name":"FRANCIS MASSAWE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"340":{
+"Name":"FRANK GIDDEON MASSARE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"341":{
+"Name":"FREDRICK CHRISTOPHER",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"342":{
+"Name":"HANIFA CHANDE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"343":{
+"Name":"HARUNI EMILY NGOWI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"344":{
+"Name":"HASSAN MOHAMED ZENGO",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"345":{
+"Name":"JAPHET GASPAR KALONGOLE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"346":{
+"Name":"JASTIN JAPHET MEMBE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"347":{
+"Name":"KASSIM SEIF",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"348":{
+"Name":"MALIKI MFAUME NYUKUDUMBA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"349":{
+"Name":"MOHAMED ISMAIL",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"350":{
+"Name":"MONENE MAGORI MOKERETI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"351":{
+"Name":"NASSORO JABIL RASHID",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"352":{
+"Name":"OMARY SHABANI NDAE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"353":{
+"Name":"RITHA JEREMIAH",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"354":{
+"Name":"SAID SUMUNI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"355":{
+"Name":"SAID AMANZI SAID",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"356":{
+"Name":"SAMWEL GEORGE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"357":{
+"Name":"SHABANI KIGOGO",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"358":{
+"Name":"SHABANI OMARI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"359":{
+"Name":"STEPHEN REUBEN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"360":{
+"Name":"STEVEN ALISTOKLES RWEYEMAMU",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"361":{
+"Name":"ANDREW CLEMENCE SEMALI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"362":{
+"Name":"AYUBU HAMADI MJILI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"363":{
+"Name":"BARAKA AWONY RINGO",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"364":{
+"Name":"BENSON KELVIN MILANZI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"365":{
+"Name":"CHACHA FRANCIS MWENGE",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"366":{
+"Name":"INNOCENT FRANK TEMBA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"367":{
+"Name":"DAURI SHABANI DAURI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"368":{
+"Name":"DOTTO MARIKI ALLY",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"369":{
+"Name":"ERICK EMMANUEL TIBENDELANA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"370":{
+"Name":"PONSIANO FEDINAND KIHAGA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"371":{
+"Name":"TITO STEPHAN MFUGALE",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"372":{
+"Name":"FABURIS NKOTANYI NTUNDA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"373":{
+"Name":"INNOCENT STEWARD BUNOTO",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"374":{
+"Name":"UPENDO JUMA KIMWERI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"375":{
+"Name":"ISSA SHAIBU LISASI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"376":{
+"Name":"JEREMIAH EZEKIEL GEORGE",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"377":{
+"Name":"MARTHA AMOS JOHN",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"378":{
+"Name":"OMARY SAID",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"379":{
+"Name":"OMARY JUMA MUNA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"380":{
+"Name":"OMARY RAJABU KAMBI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"381":{
+"Name":"OSAMA OMARI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"382":{
+"Name":"RAMADHANI ATHUMANI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"383":{
+"Name":"RAMADHANI RASHIDI KAPONGO",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"384":{
+"Name":"SALIM KHALFANI HASSAN",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"385":{
+"Name":"SEBASTIAN KUMBUSHO NGENZI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"386":{
+"Name":"STEVEN GAUDENCE CHATILA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"387":{
+"Name":"SUFIAN RAMADHANI TIMALAS",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"388":{
+"Name":"YASSIR SEIFUDIN DULGAN",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"389":{
+"Name":"ERICK PETER",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"390":{
+"Name":"IBRAHIMU KARAMA MBWANA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"391":{
+"Name":"JEFFERSON WACHIRA WANJIKU",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"392":{
+"Name":"MOHAMED ATHUMANI MAJARA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"393":{
+"Name":"ODILO RABANUS KOMBA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"394":{
+"Name":"SAIDI SHABANI GOZA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"395":{
+"Name":"SHAFII SAID BAKARI",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"396":{
+"Name":"YAHAYA HARUNA MANZAI",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"397":{
+"Name":"ABDUL OMARY",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"398":{
+"Name":"ABDUL VINTANI PAZI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"399":{
+"Name":"AHMED HUSSEIN MSSALU",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"400":{
+"Name":"BARAKA DOMINIC MNGAZIJA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"401":{
+"Name":"DORICE JOSEPH RINGO",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"402":{
+"Name":"ALBINA LAURENT MPANDA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"403":{
+"Name":"FARIDA KIVUGO",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"29":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"405":{
+"Name":"FRIDA MGUSII",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"406":{
+"Name":"AWAZI MSHUMBUSI ABDUL",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"407":{
+"Name":"HARUNI SHUGHULI MWAMLIMA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"408":{
+"Name":"IBRAHIMU ROBISON MUNUO",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"409":{
+"Name":"IDDY RAMADHANI HUSSEIN",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"410":{
+"Name":"INNOCENT VENANCE",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"411":{
+"Name":"ISSIAH DAUD ISSIAH",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"412":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"413":{
+"Name":"NOSHARD SWAI LINYAMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"414":{
+"Name":"JUSTIN MADIWAN MHEGELE",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"415":{
+"Name":"KULWA ABDI SEIF",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"416":{
+"Name":"MARIA JULIUS NYANJE",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"417":{
+"Name":"MARTHA GODFREY CHACHA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"418":{
+"Name":"NAJUM ZUBERI RASHIDI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"419":{
+"Name":"SAMSON RICHARD KABETA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"420":{
+"Name":"SARAH BASIL CHAMBO",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"421":{
+"Name":"SWALEHE SHABANI MUSSA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"422":{
+"Name":"TITO JIKOLA JOHN",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"423":{
+"Name":"ABDALAH WAZIRI KIBAO",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"424":{
+"Name":"ABDUL SALUMU",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"425":{
+"Name":"ABUBAKARI SALUMU MLEKAJONE",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"426":{
+"Name":"ALLY MOHAMEDI GOMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"427":{
+"Name":"BAKARI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"428":{
+"Name":"BONIPHACE KEPHA MASING'OTI",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"429":{
+"Name":"CHRISPIN GEOFREY",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"430":{
+"Name":"DAUDI SALUMU",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"431":{
+"Name":"HAMADI MARTIN AWESA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"432":{
+"Name":"HAMADI SAIDI HAMADI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"433":{
+"Name":"HAMISI KINENGO",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"434":{
+"Name":"HASSAN JONGO",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"435":{
+"Name":"HIBU SAID",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"436":{
+"Name":"IBRAHIM FERDINAND",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"437":{
+"Name":"IBRAHIM KUDU",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"438":{
+"Name":"IDDY TWAHA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"439":{
+"Name":"IKRAMU HAMISI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"440":{
+"Name":"ISSA HASHIMU MOHAMEDI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"441":{
+"Name":"JAMES WALESI",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"442":{
+"Name":"JOHN ALEX DINI",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"443":{
+"Name":"JOHN MSIMU RUBISHA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"444":{
+"Name":"JOHN YOHANA NCHIMBI",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"445":{
+"Name":"JUMA OMARY",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"446":{
+"Name":"JUMA JAFARI KUNJA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"447":{
+"Name":"JUMANNE ALLY",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"448":{
+"Name":"KHALID ALLY",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"449":{
+"Name":"LAMA GOMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"450":{
+"Name":"MOHAMED JONGO",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"451":{
+"Name":"MOHAMED BAKARI MPILI",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"452":{
+"Name":"MOHAMEDI SALUM MLEKAJONE",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"453":{
+"Name":"NIKODEMUS MAWAZO KANUMBA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"454":{
+"Name":"OMARI MOHAMED GOMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"455":{
+"Name":"OMARY KARIM",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"456":{
+"Name":"OMARY OSENI KILAGI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"457":{
+"Name":"OMEGA ALPHONCE MWAKISONGO",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"458":{
+"Name":"RAJABU GOMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"459":{
+"Name":"RAMADHANI SULTANI GOMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"460":{
+"Name":"RAMSON RAJABU",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"461":{
+"Name":"SAID JUMA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"462":{
+"Name":"SALUM MOHAMED MULUKAJONE",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"463":{
+"Name":"SEVERINE DANIEL BAYNIT",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"464":{
+"Name":"SUDI SAID",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"465":{
+"Name":"UDA MSAFIRI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"466":{
+"Name":"YUSUPH MUSSA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"467":{
+"Name":"YUSUPH SAID",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"468":{
+"Name":"YUSUPH KASSIM ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"469":{
+"Name":"ABDALLAH SULTANI",
+"Loc":"KISARAWE",
+"Job":"TRUCK CLEANER"
+},
+"470":{
+"Name":"DAUDI MASINGOTI KEFA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK CLEANER"
+},
+"471":{
+"Name":"EMMANUEL AUGUST KESSY",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK CLEANER"
+},
+"472":{
+"Name":"JUMA HAMISI",
+"Loc":"KISARAWE",
+"Job":"TRUCK CLEANER"
+},
+"473":{
+"Name":"ALINANUSWE LAULENCE SINAUDI",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK CLEANER"
+},
+"474":{
+"Name":"MAGEME KASWENDE SOBANJA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK CLEANER"
+},
+"475":{
+"Name":"RICHARD GOODLUCK",
+"Loc":"KISARAWE",
+"Job":"TRUCK CLEANER"
+},
+"476":{
+"Name":"SADIKI ATHUMANI MAJINJA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK CLEANER"
+},
+"477":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"478":{
+"Name":"JOHNSON RAPHAEL MZIRAY",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"479":{
+"Name":"ALLY MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"480":{
+"Name":"ALLY JIHAD HAMAD",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"481":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"482":{
+"Name":"ATHUMANI HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"483":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"484":{
+"Name":"BASHIRI RAMADHANI SELEMANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"485":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"486":{
+"Name":"BENSON JOSEPH",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"487":{
+"Name":"BONIFACE BASILI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"488":{
+"Name":"BONIFASY MNZINGU",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"489":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"490":{
+"Name":"DARUSI HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"491":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"492":{
+"Name":"DAUDI ZAKALIA MWAMBOYA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"493":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"494":{
+"Name":"ELIMOKOZI KILEO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"495":{
+"Name":"EMMANUEL MBWAMBO",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"496":{
+"Name":"FADHILI ADINANI NGALUBULWA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"497":{
+"Name":"FARAJA NDELWA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"498":{
+"Name":"FARAJI SIRAJI HARUNA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"499":{
+"Name":"FASWIHI HURUNGU",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"500":{
+"Name":"FIKILI KASSIM",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"501":{
+"Name":"FRANK RAJAB",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"502":{
+"Name":"FRANK SEBASTIAN SEBASTIAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"503":{
+"Name":"FREDRICK PHILLIPO THOMAS",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"504":{
+"Name":"GODFREY BALTAZAR SHAYO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"505":{
+"Name":"HAMISI IDD",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"506":{
+"Name":"HAMISI SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"507":{
+"Name":"HAMZA MOHAMED MAZIGE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"508":{
+"Name":"HAMZA NASSORO JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"509":{
+"Name":"HARUNA JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"510":{
+"Name":"HASHIMU RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"511":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"512":{
+"Name":"HASSAN SADICK",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"513":{
+"Name":"HASSAN SAID",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"514":{
+"Name":"HASSAN TEMBO",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"515":{
+"Name":"HERI ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"516":{
+"Name":"HIMA MBWAMO",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"517":{
+"Name":"HUSSEIN HASHIM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"518":{
+"Name":"HUSSEIN MATUNDURU KUGURU",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"519":{
+"Name":"IBRAHIM ANDREA IBRAHIM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"520":{
+"Name":"IBRAHIM RAMADHAN SHABAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"521":{
+"Name":"IDDI IBRAHIM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"522":{
+"Name":"IDDY ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"523":{
+"Name":"IDRISA NASSORO MATALI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"524":{
+"Name":"IDRISAH ISSA MRISHO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"525":{
+"Name":"ISIHAKA MWAITETE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"526":{
+"Name":"ISMAIL MNEKA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"527":{
+"Name":"ISRAEL MWAMWILE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"528":{
+"Name":"ISSA HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"529":{
+"Name":"ISSA MAPUNDA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"530":{
+"Name":"JIMICRIVU NORASCO NCHIMBI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"531":{
+"Name":"JOHN IBRAHIM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"532":{
+"Name":"JOHN NTAMBI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"533":{
+"Name":"JOHN SAMWEL",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"534":{
+"Name":"JOHNSON GODFREY MLAY",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"535":{
+"Name":"JONAS RUBEN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"536":{
+"Name":"JOSEPH MALANDA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"537":{
+"Name":"JUMA JAMLETA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"538":{
+"Name":"JUMA MASANGULA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"539":{
+"Name":"JUNZAR MAKONO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"540":{
+"Name":"KHALFAN OMAR ABBAS",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"541":{
+"Name":"KHALIFA ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"542":{
+"Name":"KHAMISI IDD",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"543":{
+"Name":"MAGOLA YUSUPH",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"544":{
+"Name":"MAJALIWA SAID",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"545":{
+"Name":"MANZI JUMA MANZI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"546":{
+"Name":"METHOD GOBANYA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"547":{
+"Name":"MICHAEL JOSEPH",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"548":{
+"Name":"MOHAMED SALUMU",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"549":{
+"Name":"MUKSIN JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"550":{
+"Name":"MUSSA SOSE SENYA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"551":{
+"Name":"MWINGIA MUSSA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"552":{
+"Name":"OMARI KARIM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"553":{
+"Name":"OMARY ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"554":{
+"Name":"OMARY MTIMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"555":{
+"Name":"OMARY SINGANO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"556":{
+"Name":"RAHIM HAMADI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"557":{
+"Name":"RAJABU HASHIMU MNDEME",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"558":{
+"Name":"RAMADHANI SUDI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"559":{
+"Name":"RASHID ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"560":{
+"Name":"SAID NDAUKA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"561":{
+"Name":"SALUM RASHIDI BANDA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"562":{
+"Name":"SAVIO THOMAS",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"563":{
+"Name":"SELEMANI HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"564":{
+"Name":"SHABANI SELEMANI KUZIWA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"565":{
+"Name":"SIMON MAJANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"566":{
+"Name":"SWABAKATI RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"567":{
+"Name":"TWAHIRU SHEKILINDI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"568":{
+"Name":"UWESU RAMADHANI PAZI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"569":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"570":{
+"Name":"WAZIRI ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"571":{
+"Name":"WILLIAM ERASTO WILLIAM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"572":{
+"Name":"YASSIN OMARY GOMA",
+"Loc":"KISARAWE",
+"Job":"Driver"
+},
+"573":{
+"Name":"ZIDADU MWEGERU",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"574":{
+"Name":"AMIRI RAFII KHAMIS",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"575":{
+"Name":"ALLY MUSTAPHA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"576":{
+"Name":"DAVID MBAYO TOTO",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"577":{
+"Name":"DOTTO MZELU SAID",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"578":{
+"Name":"GEORGE MUSSA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"579":{
+"Name":"HAFIDHI NASSORO MKOMWA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"580":{
+"Name":"HAJI MOHAMEDI MWASALA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"581":{
+"Name":"ISAYA CORNER MWANDWANI",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"582":{
+"Name":"JACKSON ANAEL MACHA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"583":{
+"Name":"JOHN KANIKI",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"584":{
+"Name":"JULIUS MARWA ISAYA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"585":{
+"Name":"MICHAEL NOEL MALUCHILA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"586":{
+"Name":"MOHAMED RAMADHANI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"587":{
+"Name":"NOWELA SHEMSON NKUBILE",
+"Loc":"B/TERMINAL",
+"Job":"LAB Tech"
+},
+"588":{
+"Name":"OMARY HANAF KAISI",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"589":{
+"Name":"RAJABU OMARI HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"590":{
+"Name":"SAID RASHID ZINU",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"591":{
+"Name":"SALEHE MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"592":{
+"Name":"SEIF SUDI SALEHE",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"593":{
+"Name":"ATHUMANI JUMA",
+"Loc":"KISARAWE",
+"Job":"SECURITY"
+},
+"594":{
+"Name":"ATHUMANI MTONGA",
+"Loc":"KISARAWE",
+"Job":"SECURITY"
+},
+"595":{
+"Name":"FREEDOM AFRICA MWAKATUMA",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"596":{
+"Name":"IBRAHIM RAMADHANI",
+"Loc":"KISARAWE",
+"Job":"SECURITY"
+},
+"597":{
+"Name":"RAMADHANI NYANDA",
+"Loc":"KISARAWE",
+"Job":"SECURITY"
+},
+"598":{
+"Name":"RAMADHANI YUSUPH",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"599":{
+"Name":"RENATUS MANYAMA",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"600":{
+"Name":"SADRO ANTHONY",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"601":{
+"Name":"STAINU CHIHIMA",
+"Loc":"B/TERMINAL",
+"Job":"SECURITY"
+},
+"602":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"603":{
+"Name":"SYLVESTER WILLIAMU MATHAYO",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"604":{
+"Name":"LIFE RICHARD MBUNDU",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"605":{
+"Name":"ABDILAH BAKARI KATUNDU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"606":{
+"Name":"IMAMU HAMZA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"607":{
+"Name":"GODLISTEN CHARLES LWAMBATI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"608":{
+"Name":"BEATRICE THEOPHIL MAGOMI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"609":{
+"Name":"RAMADHANI MUSTAFA KIVUGO",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"610":{
+"Name":"JOFREY ABEL MAGO",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"611":{
+"Name":"MUSSA RAMADHANI RWAMBO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"612":{
+"Name":"SHAFII KASSIM MBATITE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"613":{
+"Name":"MSABILA MRISHO MASANGULA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"614":{
+"Name":"OMARY DOTTO MPUNJO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"615":{
+"Name":"SHABANI MUHSIM YASSIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"616":{
+"Name":"ALLY MOHAMED ATHUMAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"617":{
+"Name":"DAUDY SHABANI KHAMISI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"618":{
+"Name":"ADAM EDWIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"619":{
+"Name":"ADAM HAJI MWINYI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"620":{
+"Name":"DINA YUSUPH NYUMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"621":{
+"Name":"SALUMU SADICK",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"622":{
+"Name":"ABDALLAH SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"623":{
+"Name":"IDDI JUMA RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"624":{
+"Name":"JUMA SHAWEJI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"625":{
+"Name":"SHABANI ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"626":{
+"Name":"MOHAMED ALLY MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"627":{
+"Name":"ALLY KUPAWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"628":{
+"Name":"YUSUPH CHIKOYO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"629":{
+"Name":"ZAHARANI JABIR SULEIMAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"630":{
+"Name":"RAFUSINJAN YUSUPH CHIKOYO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"631":{
+"Name":"JUMA SALUM PILIPILI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"632":{
+"Name":"KELVIN FURAELY AKYOO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"633":{
+"Name":"JEROME EVARIST MUDENDE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"634":{
+"Name":"MUSA HAIDARY SHEMLIWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"635":{
+"Name":"SALUM ELIAS DAMIAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"636":{
+"Name":"OMARY MWAIMU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"637":{
+"Name":"LAWRANCE LALJI SIMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"638":{
+"Name":"ABDALLAH RAMADHANI MAGENGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"639":{
+"Name":"FRED GERALD SHAYO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"640":{
+"Name":"ABDUL TOTO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"641":{
+"Name":"GERALDI GILBERTI SHAYO",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"642":{
+"Name":"IMAMU SALEHE ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"643":{
+"Name":"TWALIB OMARY MKETO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"644":{
+"Name":"RAYMOND KITIMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"645":{
+"Name":"ATHUMANI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"646":{
+"Name":"MOSES BOAZ",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"647":{
+"Name":"RAJI HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"648":{
+"Name":"JUMA HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"649":{
+"Name":"ENDRU JASHON MWIGUNE",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"650":{
+"Name":"CHRISTINA PAULO MARIWA",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"651":{
+"Name":"GEORGE JOSEPH NKOMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"652":{
+"Name":"SAID RAMADHANI LUKUSA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"653":{
+"Name":"RAJABU JUMA MPINGA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"654":{
+"Name":"NASSORO MASHAURI MDAKI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"655":{
+"Name":"SAMWEL WILLIAM MASIKO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"656":{
+"Name":"ABUBAKAR MPENJA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"657":{
+"Name":"FRANK TIMOTH MTEMELE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"658":{
+"Name":"THABITI THABITI MYUMBANIKE",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"659":{
+"Name":"MTUTA YAHAYA MTUTA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"660":{
+"Name":"OBED NTANDU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"661":{
+"Name":"SAID JUMA KINYANJE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"662":{
+"Name":"BENJAMIN ELIAS KAGELO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"663":{
+"Name":"SHABANI OMARY MACHELA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"664":{
+"Name":"JUMA ATHUMANI CHUI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"665":{
+"Name":"YAMUNGU BRAMBO SULEIMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"666":{
+"Name":"SHABANI MAWAZO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"667":{
+"Name":"NURDIN RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"668":{
+"Name":"LUKMAN UBAYA BAKAR",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"669":{
+"Name":"YASRI SHAIBU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"670":{
+"Name":"RAMADHANI BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"671":{
+"Name":"JOHN KIGODI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"672":{
+"Name":"HASSAN HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"673":{
+"Name":"ABDALLAH MASENGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"674":{
+"Name":"DANIELY RAYMOND PHILIPO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"675":{
+"Name":"YAHAYA EMMANUEL WILLIAM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"676":{
+"Name":"OMBENI RAYZAR",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"677":{
+"Name":"IBRAHIM HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"678":{
+"Name":"DAVID OGUTU GERERI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"679":{
+"Name":"BOAZ NDEGE DOMINIC",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"680":{
+"Name":"AMANI MGANDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"681":{
+"Name":"HAMADI WAZIENI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"682":{
+"Name":"SELEMANI MOHAMED ABDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"683":{
+"Name":"TARIQ SHABANI ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"684":{
+"Name":"ABDUL KIHAMO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"685":{
+"Name":"JUMA MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"686":{
+"Name":"GOODLUCK RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"687":{
+"Name":"RASHID MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"688":{
+"Name":"MARIA CHRISTOPHER THOMAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"689":{
+"Name":"RATIFA SAID",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"690":{
+"Name":"ZAINABU ISSA KAZUBA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"691":{
+"Name":"MWEBHEA ANDREW MAIJO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"692":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"693":{
+"Name":"SALEHE MAULID MTOTI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"694":{
+"Name":"NUHU OMARY MPALASINGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"695":{
+"Name":"SILVIA RAFAEL NGOWI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"696":{
+"Name":"SPERATUS LUGEMA SYPRIAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"697":{
+"Name":"HUSNA ISSA KAZUBA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"698":{
+"Name":"VICTOR DANIEL DOMINIC",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"699":{
+"Name":"FATUMA HASSAN SWALEHE",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"700":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"701":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"702":{
+"Name":"HAJI HAMISI ISSA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"703":{
+"Name":"NICHOLAUS CHACHA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"704":{
+"Name":"ALLY HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"705":{
+"Name":"GODLISTEN NGOWI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"706":{
+"Name":"MICHAEL DAUD",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"707":{
+"Name":"NASHONI NASHONI OGUTU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"708":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"709":{
+"Name":"BAKARI ALLY RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"710":{
+"Name":"SHABAN RAMADHAN SHABAN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"711":{
+"Name":"OCTAVIAN BONIFACE MBOGO",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"712":{
+"Name":"DICKSON JAMES NICKOLAUS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"713":{
+"Name":"NICHOLAUS STIVIN SALENGE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"714":{
+"Name":"PETER VICTOR THOBIUS",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"715":{
+"Name":"GIDEON KAENGA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"716":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"717":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"718":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"719":{
+"Name":"LOVENESS PETRO MWISSA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"720":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"721":{
+"Name":"EMANUEL WILLIAM MWASANDUBE",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"722":{
+"Name":"YLVA MOHAMED LUSONZO",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"723":{
+"Name":"FRANK GREGORY",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"724":{
+"Name":"RAHMA KACHARIA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"725":{
+"Name":"MSABAHA MASSUD MASOKOLA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"726":{
+"Name":"YAZIDU KASSIM",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"727":{
+"Name":"IGNAS ABERI PONERA",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"728":{
+"Name":"HASSAN HAMIS",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"729":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"730":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"731":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"732":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"733":{
+"Name":"FARAJA OSCAR CHELULA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"734":{
+"Name":"LAUTI ANDREA MTOWOLE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"735":{
+"Name":"AUGUST GASPAR KESSY",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"736":{
+"Name":"YESAYA PAUL MPILI",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"737":{
+"Name":"CLEMENCE DAVID SIMA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"738":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"739":{
+"Name":"ELIAH ASSAH MWANYAMAKI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"740":{
+"Name":"ASHA MUSSA KHESSA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"741":{
+"Name":"YAKINI IDDY ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"742":{
+"Name":"SHABANI RASHIDI JUTA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"743":{
+"Name":"SHADRACK FABIAN SWALEHE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"744":{
+"Name":"ZARAKINA LAMECK SIMON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"745":{
+"Name":"BADRU RASHID MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"746":{
+"Name":"HAMISI MOHAMMED MALULA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"747":{
+"Name":"MATHEO SEIF SINDIKALI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"748":{
+"Name":"REHEMA SHUKURU JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"749":{
+"Name":"MALIKI IBRAHIM NAMPANGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"750":{
+"Name":"HAJI MUSSA OTHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"751":{
+"Name":"ABDI JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"752":{
+"Name":"RAMADHANI HAMADI JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"753":{
+"Name":"JEROME LUCAS TITO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"754":{
+"Name":"MGAYA SUNDI ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"755":{
+"Name":"DENNIS MARWA CHACHA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"756":{
+"Name":"SAID IDDI SAID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"757":{
+"Name":"SHABAN IDDI ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"758":{
+"Name":"KELVIN CLEOPHAS CHUBWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"759":{
+"Name":"KITWANA YUSUPH MBEGU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"760":{
+"Name":"RAMADHANI JUMA GUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"761":{
+"Name":"SALHA ISMAIL KATO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"762":{
+"Name":"BAKARI ABDALLAH MSOMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"763":{
+"Name":"MBWANA HAMISI MALUNGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"764":{
+"Name":"ALBERT MASSAWE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"765":{
+"Name":"GODFREY ANDREW MAPUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"766":{
+"Name":"OMARY ABDUL MBAO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"767":{
+"Name":"GEBSON BAKARI OTHUMAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"768":{
+"Name":"HILDA PAUL SHIJA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"769":{
+"Name":"ADAM RAMADHANI HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"770":{
+"Name":"HANCE JIMMY WILLISON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"771":{
+"Name":"ABDALLAH FABIAN JOHN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"772":{
+"Name":"NIKOLAUS SEBASTIAN MILANZI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"773":{
+"Name":"PASCHAL SHIGANGA NJABELI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"774":{
+"Name":"JAMALI ATHUMAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"775":{
+"Name":"SAMWEL COSTANTINE MSANGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"776":{
+"Name":"NELSON HAMZA MAZIGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"777":{
+"Name":"ISMAIL NGALA LUHIZO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"778":{
+"Name":"HAJI HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"779":{
+"Name":"ALLY RAMADHAN HAMIS",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"780":{
+"Name":"JACKSON JOHN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"781":{
+"Name":"GLORIA NATHANIEL LUGONGO",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"782":{
+"Name":"JACKLINE OSWARD ALBERT",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"783":{
+"Name":"NICHODEMUS CHACHA MASEKE",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"784":{
+"Name":"MUSSA SHABANI ELISHA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"785":{
+"Name":"JACKSON SAMWEL CHAKUSAGA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"786":{
+"Name":"STANLEY ANDREW BASIL",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"787":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"788":{
+"Name":"DERICK JOSEPH BUNDALA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"789":{
+"Name":"SALIM HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"790":{
+"Name":"ALLY SAID KIPETILE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"791":{
+"Name":"BAKARI SHAMTE NGALAMU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"792":{
+"Name":"HABIBU ALLY ATHUMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"793":{
+"Name":"KARIM JIMMY WILSON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"794":{
+"Name":"MWANAIDI OMARY KITANDARA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"795":{
+"Name":"YAHAYA MWALAMI PETERA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"796":{
+"Name":"HAMIS ALLY MATEKUO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"797":{
+"Name":"ABDALLAH KASSIMU PAZI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"798":{
+"Name":"HAMISI HASSANI MBAYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"799":{
+"Name":"PETER MARIANUS RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"800":{
+"Name":"HASSAN HEMEDI KILIMBITE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"801":{
+"Name":"SADIKI ABDUL SADIKI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"802":{
+"Name":"IBRAHIM MUSTAFA MADUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"803":{
+"Name":"ABDALLAH FIKIRINI JOHN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"804":{
+"Name":"VIVIAN ANTONY MRUTI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"805":{
+"Name":"HEMEDI KASSIMU NGASSINDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"806":{
+"Name":"HIJRA HASSAN MSSAKA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"807":{
+"Name":"IDRISSA ABEID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"808":{
+"Name":"FREDRICK BONIFACE ALPHONCE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"809":{
+"Name":"ISSA H HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"810":{
+"Name":"ABUU SAID MPUMBE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"811":{
+"Name":"MUSSA JUMA MWANDALA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"812":{
+"Name":"ALEX JOHN MAKARA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"813":{
+"Name":"NELSON WILLIAM MWASANDUBE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"814":{
+"Name":"AZIZI LYOKA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"815":{
+"Name":"MOHAMED NGOZI",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"816":{
+"Name":"YASSIN BAKARI KINGWANDE",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"817":{
+"Name":"ZUHURA SHABANI MOSHA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"818":{
+"Name":"SAID AYUBU MJILI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"819":{
+"Name":"KHALIFA JUMA HUSSEIN",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"820":{
+"Name":"RASHID SHABANI MUHALE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"821":{
+"Name":"MATHIAS ESSAU CHINUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"822":{
+"Name":"IDDI NASSORO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"823":{
+"Name":"ZAKARIA JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"824":{
+"Name":"NAJA PAULO HUSEN",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"825":{
+"Name":"JOHNSTON JOHNSON NTANGUYE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"826":{
+"Name":"RAMADHANI MUSSA MWANGA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"827":{
+"Name":"FATUMA ADAM HABIBU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"828":{
+"Name":"JANE MESHACK RUTANYA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"829":{
+"Name":"IDD HUSSEIN MASSENGA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"830":{
+"Name":"WILLIAM ROGERS RAPHAEL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"831":{
+"Name":"ISMAIL SHABANI NDAE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"832":{
+"Name":"HAMISI ABUBAKARI LUMAMBI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"833":{
+"Name":"AIDARI ABDALLAH MLAWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"834":{
+"Name":"KHALID JONGO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"835":{
+"Name":"SELEMANI DAVID THOMAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"836":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"837":{
+"Name":"ABDUL ABDALLAH MFUNGULO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"838":{
+"Name":"ABDALLAH SHABANI SAID",
+"Loc":"",
+"Job":"G/Worker"
+},
+"839":{
+"Name":"SALUMU BAKARI SAIDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"840":{
+"Name":"ADRIAN JASON",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"841":{
+"Name":"AMANI MOHAMEDI FUNDI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"842":{
+"Name":"FORTUNATUS JUMA MNYETI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"843":{
+"Name":"HAMIDU HAMISI MBOGO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"844":{
+"Name":"HASSANI ATHUMANI RUNJE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"845":{
+"Name":"ISSA MOHAMED HUONDE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"846":{
+"Name":"IDDY SHABANI MAFURU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"847":{
+"Name":"ALAPHATI ATHUMANI NDIMBAYE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"848":{
+"Name":"MERIKION KOMBA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"849":{
+"Name":"MOHAMED MATUMBO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"850":{
+"Name":"SAID ZUBERI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"851":{
+"Name":"RICHARD ALLY MAGALA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"852":{
+"Name":"SIMON CHRYSOOTOM LUOGA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"853":{
+"Name":"SALOME ATHUMANI SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"854":{
+"Name":"ABDALLAH NYANGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"855":{
+"Name":"KIVALYE MZIRAY",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"856":{
+"Name":"DENNIS MARWA CHACHA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"857":{
+"Name":"HAJI MOHAMED SAID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"858":{
+"Name":"OMARY JUMA MHINA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"859":{
+"Name":"JABIR RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"860":{
+"Name":"ISSA ADAM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"861":{
+"Name":"JAPHET JIDAI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"862":{
+"Name":"JACKSON ABASI KAWILIKA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"863":{
+"Name":"SHUKURU USAWA MPOLO",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"864":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"865":{
+"Name":"IDDI BAKARI KIPINGU",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"866":{
+"Name":"ABDALLAH HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"867":{
+"Name":"MARIAM HAMIS",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"868":{
+"Name":"PAULO JUMA MORWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"869":{
+"Name":"SARAFINA PETER",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"870":{
+"Name":"MARRY NASIBU JUMANNE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"871":{
+"Name":"MAINDA AIDANO SEMIZIGI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"872":{
+"Name":"MUSSA MAGORI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"873":{
+"Name":"OBEDI BENEGO NKILIYE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"874":{
+"Name":"ANUAR HASSAN HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"875":{
+"Name":"JUMA JOSEPH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"876":{
+"Name":"HAMIDA KASSIM SAIDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"877":{
+"Name":"WAZIRI ATHUMAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"878":{
+"Name":"FATUMA ALLY KIPANDU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"879":{
+"Name":"PAULO PETER",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"880":{
+"Name":"ABDUL NYERERE MAZIKU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"881":{
+"Name":"MUSTAPHA HEMEDI MKETO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"882":{
+"Name":"HAMISI MOHAMEDI CHAMBUSO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"883":{
+"Name":"YASIN MOHAMED LIKOKO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"884":{
+"Name":"MUSTAFA HAFIDH AMIRI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"885":{
+"Name":"YAKUBU SAIDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"886":{
+"Name":"HAMIDU MBARAKA KATUNDU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"887":{
+"Name":"IBRAHIM ABDALLAH CHWAYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"888":{
+"Name":"HASSAN MAULID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"889":{
+"Name":"CHRISTOPHER ELIAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"890":{
+"Name":"HAMIS JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"891":{
+"Name":"SALUMU H HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"892":{
+"Name":"ISSA RAJABU SAID",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"893":{
+"Name":"SILIO ALFREDI KITWANGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"894":{
+"Name":"RICHARD DONALD",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"895":{
+"Name":"ATHUMANI MICHAEL KATUNDU",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"896":{
+"Name":"GERVAS ALPHONCE MWAMAKWAMBA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"897":{
+"Name":"NELLIELINAH ANDREWPHILIP MHANDO",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"898":{
+"Name":"HIDAYA SAID HAULE",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"899":{
+"Name":"DEOGRATIAS THOMAS NYANG'OLO",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"900":{
+"Name":"DIANA JOSEPHAT KUNDY",
+"Loc":"B/TERMINAL",
+"Job":"Imp&Exp"
+},
+"901":{
+"Name":"MUDRICK",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"902":{
+"Name":"SHAKUR JUMA MOHAMED",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"903":{
+"Name":"MOHAMED ATHUMANI DIHILE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"904":{
+"Name":"JOSEPH ANDREW NGOWI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"905":{
+"Name":"SHABAN PAZI",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"906":{
+"Name":"ALLY HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"907":{
+"Name":"JAMES ROBERT",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"908":{
+"Name":"JOHNSON LUFUMBA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"909":{
+"Name":"AMIRI HAMIS SHOSHAARI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"910":{
+"Name":"ATHUMANI KOMBA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"911":{
+"Name":"HEMED JAFARI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"912":{
+"Name":"HIJA HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"913":{
+"Name":"JACKSON LAWRENCE MSEMAKWELI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"914":{
+"Name":"MOHAMED S MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"915":{
+"Name":"SHADRACK ISACK LUAMBANO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"916":{
+"Name":"JAMALI SAID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"917":{
+"Name":"ABDULHAMID S. SANDE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"918":{
+"Name":"HAMIS JUMANNE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"919":{
+"Name":"DANIEL ULANDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"920":{
+"Name":"SALUM SALUM MALOMBE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"921":{
+"Name":"TALKI ISSA JOHN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"922":{
+"Name":"MUSSA ISMAIL MGAYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"923":{
+"Name":"MUSSA HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"924":{
+"Name":"IDDY BAKARI MANGOSONGO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"925":{
+"Name":"TARKI KASSIM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"926":{
+"Name":"MESOD PASCHAL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"927":{
+"Name":"RAJAB NYAGAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"928":{
+"Name":"HASSAN ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"929":{
+"Name":"RAJAB JACKSON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"930":{
+"Name":"HAMIS MUSSA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"931":{
+"Name":"HAMISI MALISELI NDABOKO",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"932":{
+"Name":"JULIETH MAKERE",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"933":{
+"Name":"EMMANUEL BEATUSI MSOVELA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"934":{
+"Name":"ISAACK ISAACK KOMBA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"935":{
+"Name":"NICKSON LUGEMBE",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"936":{
+"Name":"BEATRICE EDWIN NGAIZA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"937":{
+"Name":"STEPHEN MSUMA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"938":{
+"Name":"PENDO LEATH MONDAY",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"939":{
+"Name":"JOSEPHAT JOEL KINUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"940":{
+"Name":"TWALIB RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"941":{
+"Name":"IBRAHIM ABDALLAH MKAMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"942":{
+"Name":"HEMEDI ALLY BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"943":{
+"Name":"LUCY GEORGE BALEZI",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"944":{
+"Name":"SIMON DEZIDERI",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"945":{
+"Name":"INNOCENT FIKIRI MASOLI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"946":{
+"Name":"MOHAMED HEMEDI KIBENGE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"947":{
+"Name":"DICKSON DAMIAN KIRIGINI",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"948":{
+"Name":"GRACE THOMAS UGGI",
+"Loc":"PORT",
+"Job":"Imp&Exp"
+},
+"949":{
+"Name":"GIFT ROGATH WOISSO",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"950":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"951":{
+"Name":"FATMA SULEIYMAN MAJENGO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"952":{
+"Name":"SADAM SHAFII SAID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"953":{
+"Name":"JACKSON ELIA JOHN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"954":{
+"Name":"SOSPETER JOSEPH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"955":{
+"Name":"SELEMANI JUMA MTILA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"956":{
+"Name":"EMMANUEL BWANGO GONDE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"957":{
+"Name":"WILLIAM JEREMIA MAKAFU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"958":{
+"Name":"MUKSINI HAMISI NAMWASA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"959":{
+"Name":"CATHERINE CARLOS COSMAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"960":{
+"Name":"SALIM ABDUL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"961":{
+"Name":"RAMADHANI RAJABU HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"962":{
+"Name":"MASUMBUKO JULIUS MWINAMILA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"963":{
+"Name":"SALUM MBOGO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"964":{
+"Name":"RASHID NASSORO MPULULA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"965":{
+"Name":"MASINGA JACKSON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"966":{
+"Name":"HABIBA MOHAMMED ISSA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"967":{
+"Name":"HUSSEIN OMARY DAIMU",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"968":{
+"Name":"FRANK KENNETH MSOMBA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"969":{
+"Name":"ADAM PIUS NGENYUKO",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"970":{
+"Name":"SOPHIA BAKARI",
+"Loc":"PORT",
+"Job":"T/Clerk"
+},
+"971":{
+"Name":"YAHAYA ALLY HABIBU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"972":{
+"Name":"ABUBAKAR SAID HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"973":{
+"Name":"PRINCE CHARLES WAGOFYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"974":{
+"Name":"ADAM RAJABU NJALIKAI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"975":{
+"Name":"SIHABA O RAJABU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"976":{
+"Name":"ISIHAKA HEMEDI ISIHAKA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"977":{
+"Name":"BARAKA SHAFII MPEMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"978":{
+"Name":"MUKHTARI ABUBAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"979":{
+"Name":"FARID OMARY ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"980":{
+"Name":"MONICA CORNEL MWANDWANI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"981":{
+"Name":"JAMILA ALLY LIPONDA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"982":{
+"Name":"UPENDO MACHUM MACHUM",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"983":{
+"Name":"ZAKIA YAHAYA LUMALA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"984":{
+"Name":"VICTORIA LAWRENCE KHAMSIN",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"985":{
+"Name":"JESCA STANLEY MWIGOHA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"986":{
+"Name":"VERONICA HAULE",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"987":{
+"Name":"ZAINABU JUMA BULLA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"988":{
+"Name":"KURAISHIA SHEHE SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"989":{
+"Name":"MESHACK JULIUS JOHN",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"990":{
+"Name":"KASSIM SWED HASSAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"991":{
+"Name":"VITALIANO EMMANUEL MARKO",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"992":{
+"Name":"RAHIM KIKOTO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"993":{
+"Name":"JABIR JUMA KUNJA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"994":{
+"Name":"ALLY MOHAMEDI GOMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"995":{
+"Name":"MWALAMI SAID MADUTA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"996":{
+"Name":"IBRAHIMU JOTHAMU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"997":{
+"Name":"DAUDI SAMWELI JOSEPH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"998":{
+"Name":"HEMEDI ALLY BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"999":{
+"Name":"RICHARD LAWRENCE LUGENDO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1000":{
+"Name":"LATIFA RASHID ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1001":{
+"Name":"BARAKA DAUDI TIANO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1002":{
+"Name":"BARAKA LIVAS KISUMO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1003":{
+"Name":"BENJAMIN FUNGO FUMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1004":{
+"Name":"ALLY OTHMAN ZAHORO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1005":{
+"Name":"ABDALLAH SHABANI MKILYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1006":{
+"Name":"DOTTO MWINGI RASHIDI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1007":{
+"Name":"JOHN MATHIAS LESSO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1008":{
+"Name":"IBRAHIM NASSOR KUSSA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1009":{
+"Name":"ATHUMANI ABDALLA ALLY",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1010":{
+"Name":"MOHAMED TWARIB KAPICHI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1011":{
+"Name":"RAYMOND EMMANUEL SAMWEL",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"1012":{
+"Name":"JOSEPHAT ANDREW CHALLE",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"1013":{
+"Name":"RAMADHANI KUNJU SAMSON",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"1014":{
+"Name":"FRANK MUSSA LEONARD",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1015":{
+"Name":"RAMADHANI JUMA ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1016":{
+"Name":"PRICILLA COSMAS MACHA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1017":{
+"Name":"OMARY RAJU MTETE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1018":{
+"Name":"MARRY ANDREA PAUL",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1019":{
+"Name":"NYASIGE MAKUBI MUGETA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1020":{
+"Name":"SALUMU SELEMANI MSHINDO",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1021":{
+"Name":"ABDALLAH RAMADHANI ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1022":{
+"Name":"MANE VICENT LUKALI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1023":{
+"Name":"AISHA SELEMANI",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1024":{
+"Name":"SAFIRUNA SWADI JABIRI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1025":{
+"Name":"BARAKA JULIUS ASENO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1026":{
+"Name":"MIKIDADI MOHAMED HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1027":{
+"Name":"HAMZA HARIDI RAJABU",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"1028":{
+"Name":"JULIA MWAMBA MAYAI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1029":{
+"Name":"MELINA LOVA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1030":{
+"Name":"JUDIKA COSMAS SHAO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1031":{
+"Name":"SELEMANI ABDUL",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1032":{
+"Name":"OMARY IDDI MTUMWA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"1033":{
+"Name":"MOHAMED HASSAN CHAOYA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"1034":{
+"Name":"SALEHE SAID MTANDILA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"1035":{
+"Name":"VUMILIA MUSSA MWASILE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1036":{
+"Name":"UPENDO SAPHIEL MSHANA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1037":{
+"Name":"ABUBAKAR IDDI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1038":{
+"Name":"SAID BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1039":{
+"Name":"JUMA SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1040":{
+"Name":"SHARIFU KHALID MAYANGA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1041":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"1042":{
+"Name":"AMONI ALFEA MASWAGO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1043":{
+"Name":"FARAJA GOLDEN MDUBA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1044":{
+"Name":"ZIADA SELEMANI RASHIDI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1045":{
+"Name":"RAJABU MOHAMED",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1046":{
+"Name":"JUMA FESTO MOHAMMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1047":{
+"Name":"SARAH NYAMBEA KAINJA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1048":{
+"Name":"ASIA RAMADHANI NGALAMU",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1049":{
+"Name":"EMMANUEL JOSHUA FREDNARND",
+"Loc":"B/TERMINAL",
+"Job":"Lashing "
+},
+"1050":{
+"Name":"ERNEST HAULE FANDE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1051":{
+"Name":"MOHAMMED NASSORO MOHAMMED",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1052":{
+"Name":"MUZE FRANK MDUMA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1053":{
+"Name":"CHRISTINA SEBASTIANI KAHIMBA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1054":{
+"Name":"ESTER THOMAS MAKELELE",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1055":{
+"Name":"ZAITUNI AMIRI MSTAPHER",
+"Loc":"MCCL",
+"Job":"INPORT & EXPORT"
+},
+"1056":{
+"Name":"ABDULKADIR DAWA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1057":{
+"Name":"SALIMU SADRO HABIBU",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1058":{
+"Name":"MUHIDINI AMONI",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1059":{
+"Name":"SADIKI HAMZA",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1060":{
+"Name":"SALIM SAID",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1061":{
+"Name":"ISSA MOHAMED",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"1062":{
+"Name":"FARID OMARY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1063":{
+"Name":"ALLY JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1064":{
+"Name":"OMARI ISSA NGUZO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1065":{
+"Name":"ALEX GODFREY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1066":{
+"Name":"ANNA GASPAR MAHOO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1067":{
+"Name":"IRENE SHADRACK MWAKALINDILE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1068":{
+"Name":"HUSSEIN ISSA MKONONA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1069":{
+"Name":"FARAJI KAZUMARI KAIDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1070":{
+"Name":"ALLY JUMA RAJABU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1071":{
+"Name":"ABUBAKAR HASSAN ABUBAKAR",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1072":{
+"Name":"IRENE ALISTIDES FERNAND",
+"Loc":"MCCL",
+"Job":"Sweeper"
+},
+"1073":{
+"Name":"ALLY HAMISI SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1074":{
+"Name":"FRANK ALEX AMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1075":{
+"Name":"JAFARI SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1076":{
+"Name":"ABUBAKARI ABDUL UREMBO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1077":{
+"Name":"OMARI HAMISI UNGANDO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1078":{
+"Name":"RAJABU ALLY NGINGITE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1079":{
+"Name":"KOLADI KILIAN DITIRANI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1080":{
+"Name":"ABASI ALLY NYABWA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1081":{
+"Name":"REHEMA KESSY KONDO",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1082":{
+"Name":"ABDULRAZACK HAMISI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1083":{
+"Name":"HAMAD MASOUD",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1084":{
+"Name":"JAMAL JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1085":{
+"Name":"MICHAEL WILLIAM MICHAEL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1086":{
+"Name":"JEREMIAH MADINDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1087":{
+"Name":"ELISHA AMOS MASIGARA",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"1088":{
+"Name":"OMARY RASHID MOHAMED",
+"Loc":"PORT",
+"Job":"G/Worker"
+},
+"1089":{
+"Name":"SELEMANI RASHID",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"1090":{
+"Name":"SADATI KHAMISI MANGILA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1091":{
+"Name":"MOSES ELISHA MWANDAMBO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1092":{
+"Name":"SHAKRAJI MOHAMED KIMBE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1093":{
+"Name":"BENSON PETER",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1094":{
+"Name":"ABUBAKAR RASHID",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1095":{
+"Name":"RAMADHANI OMARY RASHID",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1096":{
+"Name":"ABDALLAH ISSA FAKIHI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1097":{
+"Name":"RAMADHANI SEFU",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1098":{
+"Name":"ANTHONY KHALID",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1099":{
+"Name":"RODRICK ROBERT MWANGALABA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1100":{
+"Name":"MAJID MUSSA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1101":{
+"Name":"ABUBAKARI RASHID JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1102":{
+"Name":"MUSTAPHA AZIZI NKYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1103":{
+"Name":"KASSIM JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1104":{
+"Name":"JUMA AHAMADI LIGULUGULU",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1105":{
+"Name":"RAMADHANI OMARY",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1106":{
+"Name":"ZUBERI SALUM",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1107":{
+"Name":"BATROMEO GWIDO MPEKA",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"1108":{
+"Name":"FRED BRENA MWAKAPALA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1109":{
+"Name":"JOSEPH LIPONDA",
+"Loc":"HQ",
+"Job":"Imp&Exp"
+},
+"1110":{
+"Name":"ABUBAKAR SHEMSANGA",
+"Loc":"HQ",
+"Job":"Imp&Exp"
+},
+"1111":{
+"Name":"SELEMANI SHAIBU AYUBU",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1112":{
+"Name":"GADI ANYAMBILILE MWAMASO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1113":{
+"Name":"DERICK RINGO KIMASIANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1114":{
+"Name":"JUMA ALLY NGALANGILA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1115":{
+"Name":"JACKSON RAYMOND JOHN",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1116":{
+"Name":"HUSSEIN NASSORO HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1117":{
+"Name":"MUHIDINI RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1118":{
+"Name":"ISMAEL HERI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1119":{
+"Name":"HASSAN JUMA SHELU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1120":{
+"Name":"DAMIAN GABRIEL OKUMU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1121":{
+"Name":"INNOCENT KIMARO KIMARO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1122":{
+"Name":"ERICK JULIUS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1123":{
+"Name":"OMARY RAMADHANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1124":{
+"Name":"JACKTON MUGA BENARD",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1125":{
+"Name":"FARKIA OMARY KANIKI",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1126":{
+"Name":"AISHA IDRISSAH MWAJASHO",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1127":{
+"Name":"WITNESS SAULO SUNZU",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1128":{
+"Name":"RAMADHANI JUMA SELEGA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1129":{
+"Name":"ABDALLAH SULTANI GOMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1130":{
+"Name":"MAIKO JOFLEY MANAMBO",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1131":{
+"Name":"HASANI RASHIDI GOMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1132":{
+"Name":"SABRI SAID SELEMAN",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1133":{
+"Name":"JUMA RASHID KUSA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1134":{
+"Name":"ABDUL HAMIS LUMALA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1135":{
+"Name":"SALMA HAMIDU CHUTTO",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1136":{
+"Name":"BADRU R SALIM",
+"Loc":"KISARAWE",
+"Job":"Operator"
+},
+"1137":{
+"Name":"ABDALLAH MOHAMED",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"1138":{
+"Name":"DISLAUS MGAYA DITRAM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1139":{
+"Name":"ELASMO GAUDENCE MLOWE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1140":{
+"Name":"JOSEPH SIMON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1141":{
+"Name":"GWAKISA JUMA CHINGUILE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1142":{
+"Name":"ALPHA JASHONI MWIGUNE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1143":{
+"Name":"ABDALLAH MOHAMEDY kHAMISi",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1144":{
+"Name":"BLESS THOMAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1145":{
+"Name":"CHIKU SWETA JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1146":{
+"Name":"FRIDA SALVATORY CHUWA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1147":{
+"Name":"NASSORO ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1148":{
+"Name":"IBRAHIMU BAKARI KISEYU",
+"Loc":"B/TERMINAL",
+"Job":"Tech"
+},
+"1149":{
+"Name":"SHABANI DOTO ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"1150":{
+"Name":"BENSON BARTALOMEO BENEDICT",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1151":{
+"Name":"JENIFER EMMANUEL SANGA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1152":{
+"Name":"JAMES AUSTIN THOMAS",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1153":{
+"Name":"IRENE RAPHAEL MWAKAPILA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1154":{
+"Name":"OMARY RASHID MASANGA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1155":{
+"Name":"ADAM HUSSEIN BWANGO",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1156":{
+"Name":"MUSTAPHA SAID UPUNDA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1157":{
+"Name":"NESTORY NCHIMBI WARIOBA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1158":{
+"Name":"NAZIRI SELEMANI MAGAMBO",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1159":{
+"Name":"DEBORAH DANIEL MWITA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1160":{
+"Name":"MARTHA MATHAYO NASONGELA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1161":{
+"Name":"SANGITIANA EXPEDITO NDHILA",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1162":{
+"Name":"MWAMTUMU SHOMARI SALUMU",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1163":{
+"Name":"JACKSON JOHN MVULA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1164":{
+"Name":"MAHADI ISSA OMARY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1165":{
+"Name":"FADHILI MUHUD RAMADHAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1166":{
+"Name":"MIXCUS LUCAS KINOLI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1167":{
+"Name":"JUMANNE MOHAMEDI BAISA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1168":{
+"Name":"EMMANUEL ELIAS SEGASHANGA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1169":{
+"Name":"AGNES SANGA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1170":{
+"Name":"JULIANA KASAMA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1171":{
+"Name":"JOSHUA KANIKI",
+"Loc":"PUGU",
+"Job":"T/Clerk"
+},
+"1172":{
+"Name":"ALLY IBRAHIM",
+"Loc":"PUGU",
+"Job":"T/Clerk"
+},
+"1173":{
+"Name":"OBADIA DANIEL",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1174":{
+"Name":"ABDALLAH RASHID",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1175":{
+"Name":"DIANA JOSEPH RUTTA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"1176":{
+"Name":"JACOB CHAMBALO DOWE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1177":{
+"Name":"FADHILI MASOUD ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1178":{
+"Name":"ALLY IBRAHIM MILANDU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1179":{
+"Name":"IBRAHIM JUMA NANTELLA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1180":{
+"Name":"ABUU SAID AMIRI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1181":{
+"Name":"AMINA SELEMANI ATHUMAN",
+"Loc":"KISARAWE",
+"Job":"Sweeper"
+},
+"1182":{
+"Name":"SALEHE RAMADHANI LIOMBA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1183":{
+"Name":"SAID MOHAMED RAJABU",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1184":{
+"Name":"SHEDRACK ALLY KIBWANA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1185":{
+"Name":"LUKMAN HALFAN GIFT",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"1186":{
+"Name":"HUSSEIN JAMAL DEO",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"1187":{
+"Name":"MIKIDADI JUMA MAYENGO",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1188":{
+"Name":"JORAM IYOMBE JOSEPHAT",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1189":{
+"Name":"SHAFII ADAMU NANYEMA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1190":{
+"Name":"SALEHE IDRISA KIBONA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1191":{
+"Name":"SELEMANI JUMA MGUMBA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1192":{
+"Name":"JANET FRANK EMANUEL",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1193":{
+"Name":"JUSTINE THOBIUS OBENCHO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1194":{
+"Name":"LAWI BENSON MABOJANO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1195":{
+"Name":"ADVENTINA JAMES MABUGA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1196":{
+"Name":"BONIPHACE MATHIAS MICHAEL",
+"Loc":"B/TERMINAL",
+"Job":"FLAGMEN"
+},
+"1197":{
+"Name":"PETER ALPHA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1198":{
+"Name":"AMINA HUSSEIN JUMA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1199":{
+"Name":"KHADIJA METHOD MUSSA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1200":{
+"Name":"FATUMA ALLY",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1201":{
+"Name":"ZAINA KHALFAN",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1202":{
+"Name":"ELMINA WALES",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1203":{
+"Name":"MWANAIDI YAZIDU ALLY",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1204":{
+"Name":"MANFRED AGUSTINO",
+"Loc":"PUGU",
+"Job":"T/Clerk"
+},
+"1205":{
+"Name":"ABDULKARIM RAJABU DAFF",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1206":{
+"Name":"IBRAHIM JOSEPH ISAYA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1207":{
+"Name":"BARAKA GABRIEL HILLARY",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1208":{
+"Name":"RAMADHANI ABDULRAHMAN BAKARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1209":{
+"Name":"DORICE EVANCE KAFURUKI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1210":{
+"Name":"DENIS GEORGE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1211":{
+"Name":"AWETU ALLY SAID",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"1212":{
+"Name":"MUSSA JACOB",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1213":{
+"Name":"MOHAMED ATHUMAN",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1214":{
+"Name":"NASSORO RASHID",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1215":{
+"Name":"RAJABU SAID KATOROKA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"1216":{
+"Name":"KIBA IDDY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1217":{
+"Name":"NASMA ALLY RASHIDi",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1218":{
+"Name":"FILIPO EDWARD CHOYA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1219":{
+"Name":"HILDA ALONI BUYA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1220":{
+"Name":"RICHARD JOHN MICHAEL",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1221":{
+"Name":"PETER MICHAEL JOHN",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1222":{
+"Name":"CLAVERY GEOFREY NKUWI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1223":{
+"Name":"COLLINS BENARD MPONZI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1224":{
+"Name":"ARAFAT MBARAKA ALLY",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1225":{
+"Name":"SAID IBRAHIM SADI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1226":{
+"Name":"DAMAS LEONARD FILIMINI",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1227":{
+"Name":"HILARI SULTANI MILONGIA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1228":{
+"Name":"YASIN MOHAMED KABETA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1229":{
+"Name":"ABDALLAH JUMA MATOGORO",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1230":{
+"Name":"JUMA UWESU RAJABU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1231":{
+"Name":"MUKSINI HAMISI NAMWASA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1232":{
+"Name":"ANASI YAHAYA KIGODA",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"1233":{
+"Name":"JOYCE RICHARD CASSIAN",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1234":{
+"Name":"RITHA DAVID NYALAPA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1235":{
+"Name":"KHAIRA MUSSA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1236":{
+"Name":"MIRIAM NASHON",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1237":{
+"Name":"EVELINA MGILIMA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1238":{
+"Name":"GRACE MWASOMOLA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1239":{
+"Name":"AMINA IMANI KABONDO",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1240":{
+"Name":"SALUM FARAJI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1241":{
+"Name":"PETER GEORGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1242":{
+"Name":"DAVID PHILBERT",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"1243":{
+"Name":"SADICK SELEGA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1244":{
+"Name":"SUWEDI MASOUD",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1245":{
+"Name":"ABDALLAH SHOMARI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1246":{
+"Name":"FARID SAID",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"1247":{
+"Name":"ALFRED PETER",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1248":{
+"Name":"SADICK ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1249":{
+"Name":"DENIS DICKSON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1250":{
+"Name":"JUNIOR R CHIBWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1251":{
+"Name":"HASSAN HEMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1252":{
+"Name":"JIMMY ROBERT MAKERE",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1253":{
+"Name":"EDINA KABUJE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1254":{
+"Name":"ADRIAN NIMROD SWAI",
+"Loc":"MCCL",
+"Job":"Imp&Exp"
+},
+"1255":{
+"Name":"EPHRAZIA FORTUNATUS WILLIAM",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1256":{
+"Name":"MUKHLISIN HAMDAN SULEIMAN",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1257":{
+"Name":"OSCAR BENSON MSEMWA",
+"Loc":"B/TERMINAL",
+"Job":"Operator"
+},
+"1258":{
+"Name":"SAUMU MOHAMED KAWENDA",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1259":{
+"Name":"SHANIA BONIPHACE MWIGANI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1260":{
+"Name":"MOHAMED KIBWANA MGAZA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1261":{
+"Name":"ALEX SHABANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1262":{
+"Name":"ESTER NGOWI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1263":{
+"Name":"JEREMIA YUSUFU KASARA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1264":{
+"Name":"KARIM MUSSA CHIMBAVALA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1265":{
+"Name":"NDAKI MAJABA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1266":{
+"Name":"PETRO MASIMBA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1267":{
+"Name":"AYUBU JAMAL",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1268":{
+"Name":"EPHRAIM SANGA",
+"Loc":"B/TERMINAL",
+"Job":"Lashing"
+},
+"1269":{
+"Name":"JENETH NYANGOMA JOSEPH",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1270":{
+"Name":"HATIBU MAJALIWA DIWANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1271":{
+"Name":"IGNAS WILLIAM ALFONCE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1272":{
+"Name":"LAILI JUMANNE OMARY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1273":{
+"Name":"RASHIDI SHABANI ABDALLAH",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1274":{
+"Name":"ZAHIR HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1275":{
+"Name":"YAHAYA SEIF",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1276":{
+"Name":"ASHRAFU RAMADHANI MUSTAPHA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1277":{
+"Name":"RAMADHANI HASSANI SAIDI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1278":{
+"Name":"SELEMANI LIKONDE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1279":{
+"Name":"MOHAMED HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1280":{
+"Name":"SAID HEMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1281":{
+"Name":"GEORGE MAPUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1282":{
+"Name":"JUMA SELEMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1283":{
+"Name":"HUSSEIN SELEMANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1284":{
+"Name":"RAHIM ABDAN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1285":{
+"Name":"JAMAL KASSIM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1286":{
+"Name":"SAANANE RAJABU",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1287":{
+"Name":"SHAIBU BAKAR",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1288":{
+"Name":"CHRISTOPHER ELIAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1289":{
+"Name":"ALLY NASSORO",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1290":{
+"Name":"SADICK HASSANI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1291":{
+"Name":"ELIUD METHOD",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1292":{
+"Name":"MUSSA JULIUS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1293":{
+"Name":"THAMANI RAJABU REUBEN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1294":{
+"Name":"ABDUL MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1295":{
+"Name":"RAMADHANI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1296":{
+"Name":"SHABANI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1297":{
+"Name":"GEORGE JOHN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1298":{
+"Name":"HUSSEIN JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1299":{
+"Name":"JUMA ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1300":{
+"Name":"FARAJI RWANDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1301":{
+"Name":"IBRAHIM EMMANUEL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1302":{
+"Name":"JAFARI JAFARI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1303":{
+"Name":"THAMANI RAJABU REUBEN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1304":{
+"Name":"GEORGE MAPUNDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1305":{
+"Name":"GODFREY ABDUL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1306":{
+"Name":"ALLY SEPH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1307":{
+"Name":"SHAFII MUHILI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1308":{
+"Name":"RASHIDI KAWAWA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1309":{
+"Name":"EMMANUEL ZAZAL",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1310":{
+"Name":"YUNUS AMRY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1311":{
+"Name":"PAULO KAFURU LUHAGA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1312":{
+"Name":"NASFAT IDDY MATEJA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1313":{
+"Name":"VUGISE TIME JACKSON",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1314":{
+"Name":"KIMU HUSSEIN",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1315":{
+"Name":"SAYUNI JONAS",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1316":{
+"Name":"RAJABU SAID KATAMBWE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1317":{
+"Name":"ABDUL SELEMANI MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1318":{
+"Name":"SHABANI ALLY KIGONGO",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1319":{
+"Name":"GLORIOUS ALAN ADAM",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1320":{
+"Name":"OMARY ATHUMAN JUMA",
+"Loc":"KISARAWE",
+"Job":"T/Clerk"
+},
+"1321":{
+"Name":"HIPOLITI AMANDUS MAZIMBA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1322":{
+"Name":"RAHIM RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1323":{
+"Name":"PETRO MASHOLE MATAGE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1324":{
+"Name":"MAULID HUSSEIN MPANYA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1325":{
+"Name":"AIZAKI MASHAKA MAPUNDA",
+"Loc":"B/TERMINAL",
+"Job":"Driver"
+},
+"1326":{
+"Name":"HAMISI SAIDI HAMISI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1327":{
+"Name":"HIPOLITI HAMZA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1328":{
+"Name":"SETH ALOYCE",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"1329":{
+"Name":"JANETH FRANK NDUNGURU",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1330":{
+"Name":"BEATRICE SHUKA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"tm1":{
+"Name":"ABDUL A MATIBWA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"tm2":{
+"Name":"ATHUMANI CHIKIRA",
+"Loc":"MCCL",
+"Job":"Operator"
+},
+"tm3":{
+"Name":"HAMISI JOWA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"tm4":{
+"Name":"JALIBU JOFU",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"tm5":{
+"Name":"BAKARI MACHIBYA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"tm6":{
+"Name":"SELEMANI HAMISI",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"tm7":{
+"Name":"RICHARD ROBERT",
+"Loc":"HQ",
+"Job":"Imp&Exp"
+},
+"tm8":{
+"Name":"MASOUD JUMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm9":{
+"Name":"KARIM HUSSEIN NDAUKA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm10":{
+"Name":"RASULI ALLY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm11":{
+"Name":"DANIEL RAMSON MWAMPASHI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm12":{
+"Name":"ABDALLAH OMARY",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm13":{
+"Name":"SADATI SALUM",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"tm14":{
+"Name":"RAJABU HAMADI KIMBULUMBULU",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"tm15":{
+"Name":"RHODA MONGAYE",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm16":{
+"Name":"GRACE MUNDIL",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm17":{
+"Name":"MWANAHER ISSA",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm18":{
+"Name":"ASIA HAMISI",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm19":{
+"Name":"FATUMA DUNI",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm20":{
+"Name":"ISMAIL JUMA PUGU",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm21":{
+"Name":"HAJI HAJRO",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm22":{
+"Name":"KHATIB OMARY",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm23":{
+"Name":"FIKIRINI MASOUD",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm24":{
+"Name":"ROLI PATRICK",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm25":{
+"Name":"SAID RASHID",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm26":{
+"Name":"MAULID KASSIM",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm27":{
+"Name":"EPHRAIM OMEGA",
+"Loc":"PUGU",
+"Job":"Lashing"
+},
+"tm28":{
+"Name":"KONDO IDDY",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"tm29":{
+"Name":"SAMSON PETER",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"tm30":{
+"Name":"KHALFAN KILUWALI",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"tm31":{
+"Name":"SHABAN SAID",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"X1":{
+"Name":"RAMALII RAMECK",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X2":{
+"Name":"ATHUMANI SALEHE",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X3":{
+"Name":"MOHAMED ATHUMANI",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X4":{
+"Name":"ZUBERI ABDALLAH",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X5":{
+"Name":"IDRISA SELEMANI",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm32":{
+"Name":"EPHRAIM SANGA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X6":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"X7":{
+"Name":"SWED MASOUD",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"X8":{
+"Name":"USHINDI EDES",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"X9":{
+"Name":"ASHIRAFU JUMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"X10":{
+"Name":"DAVID ROBERT",
+"Loc":"KISARAWE",
+"Job":"Lashing "
+},
+"X11":{
+"Name":"EMMANUEL MWITA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X12":{
+"Name":"ISDORY PATRICK",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"X13":{
+"Name":"KARIM JUMA",
+"Loc":"KISARAWE",
+"Job":"G/Worker"
+},
+"X14":{
+"Name":"FARAJA LUVANDA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"X15":{
+"Name":"ALLY ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm43":{
+"Name":"ALLY IBRAHIM",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm44":{
+"Name":"RAHIMU RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm45":{
+"Name":"FORTUNATUS DICKSON",
+"Loc":"B/TERMINAL",
+"Job":"FLAGMEN"
+},
+"tm46":{
+"Name":"MUSSA WASHIMA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm47":{
+"Name":"SAHILI MTENDE",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm48":{
+"Name":"JUMA MOHAMED",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm49":{
+"Name":"OMARY RASHID",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm50":{
+"Name":"SAMWEL MWAFERI",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"tm51":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm52":{
+"Name":"OMAR A OMARI",
+"Loc":"",
+"Job":""
+},
+"tm53":{
+"Name":"ALPHAXARD ISAYA",
+"Loc":"",
+"Job":""
+},
+"tm54":{
+"Name":"PERPETUA STEPHEN",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm55":{
+"Name":"MWAJUMA SALEHE NASSORO",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm56":{
+"Name":"JAMILA RAMADHAN ABDALLAH",
+"Loc":"PUGU",
+"Job":"Sweeper"
+},
+"tm57":{
+"Name":"DAVID JOHN",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm58":{
+"Name":"JUMA MWINYIMGAYA",
+"Loc":"PUGU",
+"Job":"G/Worker"
+},
+"tm59":{
+"Name":"FARAJI SHAIBU",
+"Loc":"KISARAWE",
+"Job":"Lashing"
+},
+"tm60":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm61":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm62":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm63":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm64":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm65":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm66":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm67":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm68":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm69":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm70":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm71":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm72":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm73":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm74":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm75":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"tm76":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"1331":{
+"Name":"JASON ELIAS ENOCK",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"1332":{
+"Name":"MAJID HASSAN SALUM",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1333":{
+"Name":"ALI OMARY RWAMBO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1334":{
+"Name":"ABDURRKAREEM MAALIM NABAHANI",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"1335":{
+"Name":"EDSON GEORGE MASANJA",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"1336":{
+"Name":"TARIQ KHAMISI BRASHI",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"1337":{
+"Name":"ABDURAHAMAN YUSUPH KITAMBULILO",
+"Loc":"B/TERMINAL",
+"Job":"TRUCK DRIVER"
+},
+"1338":{
+"Name":"ABBAS ABDUSWAMAD ABDALLAH",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1339":{
+"Name":"THOMAS FIKIRI WISTON",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+},
+"1340":{
+"Name":"NASRA JAFARI MOHAMEDI",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1341":{
+"Name":"BEATRICE JUSTINE SHUPAA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1342":{
+"Name":"YUSNA NYARI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1343":{
+"Name":"HALIMA MALULI",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1344":{
+"Name":"JACKLINE MSOKA",
+"Loc":"MCCL",
+"Job":"T/Clerk"
+},
+"1345":{
+"Name":"JANETH ROBERT ROBHI",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1346":{
+"Name":"JOHN MELICHO MKUVASA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1347":{
+"Name":"GRACE EMMANUEL ELIAS",
+"Loc":"B/TERMINAL",
+"Job":"Sweeper"
+},
+"1348":{
+"Name":"JOSEPH SIMON",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1349":{
+"Name":"ASMA OMARY KILINGAMOYO",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1350":{
+"Name":"CHIMPAYE DODWE GWITABA",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1351":{
+"Name":"BISE TUNTUFYE",
+"Loc":"B/TERMINAL",
+"Job":"T/Clerk"
+},
+"1352":{
+"Name":"JOHN MKUVASA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1353":{
+"Name":"CLOUD SIMON MWAKAYOKA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1354":{
+"Name":"HUMPHREY MWAMATANDALA",
+"Loc":"MCCL",
+"Job":"G/Worker"
+},
+"1355":{
+"Name":"",
+"Loc":"",
+"Job":""
+},
+"1356":{
+"Name":"LUMULI LUPAKISYO MWAKABUTA",
+"Loc":"B/TERMINAL",
+"Job":"G/Worker"
+}
+}
+

@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STORE REPORT</title>
+  <script>
+    // Check authentication on page load
+    if (sessionStorage.getItem('isAuthenticated') !== 'true') {
+      window.location.href = 'index.html';
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    #spn{cursor: pointer ;background-color: transparent;border-radius: 50%;height: 10px;width: 10px;display: inline-block;position: relative;}
+
+    #dcscLogo{
+      animation:spin 8s linear infinite;
+      
+      width:70px;
+      height:70px;
+      border-radius: 50%;
+    
+    }
+@keyframes spin{
+      from{transform:rotateY(0deg)}
+      to{transform:rotateY(360deg)}
+    }
+     #myTable thead th{position: sticky;top:0}
+    #myTable tfoot td{position: sticky;bottom:0}
+
+    #dcsttLogo{display: inline-block; width: 50PX; height: 50PX;position: absolute;left: 44em;top: 1.7em;}
+   
+    #relodImg:hover{transform: scale(1.3);background-color: rgb(235, 230, 225);}    
+    #relodImg{
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      
+    }
+
+    /* Unfilter button styled like an image/icon */
+    #unfilterBtn{
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      
+      
+      
+      z-index: 9999;
+      
+      border-radius:50%;
+      border: 1px solid rgba(255,255,255,0.15);
+      padding: 4px;
+      background-color: #0d6efd; /* Bootstrap primary */
+      color: #fff !important;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+      transition: transform .12s ease, background-color .12s ease;
+      font-size: 18px;
+    }
+    #unfilterBtn:hover{transform: scale(1.12);background-color: #0b5ed7;}
+    #unfilterBtn i{color: #fff;}
+
+
+    /* Adjust positions on small screens */
+    @media (max-width: 808px) {
+      #dcscLogo {
+        width: 60px;
+        height: 60px;
+      }
+      
+      
+    }
+
+    .dropdown-menu { max-height: 200px; overflow-y: auto; }
+    .dropdown-search-li { padding: .25rem .5rem; }
+    .dropdown-search-input { width: 100%; box-sizing: border-box; }
+    th { vertical-align: middle; }
+    #cc { position: relative; top: 0px;}
+    #tbody1 td { padding-top: 0%; padding-bottom: 0%; height: fit-content; vertical-align: middle; text-align: center; }
+  #QtyCount, #PeopleCount{color: yellow;font-size: larger;} 
+ 
+  /* Prevent FULL NAME column from wrapping and expanding row height */
+  
+  /* FULL NAME column */
+  #myTable td:nth-child(6) {
+    max-width: 14rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+   #myTable td:nth-child(9)
+   {
+    max-width: 4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  /* DATE column: show ellipsis when space is limited */
+  #myTable thead th:nth-child(2),
+  #myTable td:nth-child(2),
+  #myTable thead th:nth-child(14),
+  #myTable td:nth-child(14) {
+    max-width: 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .table-black td {
+  background-color: #0f1724; /* row background (example: dark blue/gray) */
+  color: #e8eef8;            /* row text color */
+}
+
+  /* PPE TYPE column - content width */
+  #myTable thead th:nth-child(7),
+  #myTable td:nth-child(7) {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  /* C/Center column - header and data cells */
+  #myTable thead th:nth-child(16),
+  #myTable td:nth-child(16) {
+    width: 7em;
+    min-width: 7em;
+  }
+
+  /* Button wrapping in C/Center column */
+  #myTable td:nth-child(16) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #myTable td:nth-child(16) .btn {
+    flex: 0 1 auto;
+    margin: 0.25rem !important;
+    padding: 0.375rem 0.5rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  </style>
+</head>
+<body>
+
+<div style="background-color: #f8f9fa; padding: 10px 20px; border-bottom: 2px solid #dee2e6; display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; gap: 15px;">
+    <a href="index.html" style="text-decoration: none; color: #0d6efd; font-weight: 600; font-size: 0.95em;" title="Go to Home">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a href="storeReport_good1.html" style="text-decoration: none; color: #0d6efd; font-weight: 600; font-size: 0.95em;" title="Switch to Uniform Distribution Report">
+      <i class="fas fa-exchange-alt"></i> Uniform Report
+    </a>
+  </div>
+  <div style="font-size: 0.85em; color: #6c757d;">
+    <i class="fas fa-file-alt"></i> Daily Equipment Report
+  </div>
+</div>
+
+<div class="table-responsive" id="cont" style="margin-left: 5%;width:fit-content;">
+  <h5 style="margin-top: 3px;">CL_STORE REPORT (DAILY/KUTWA)</h5>
+  <div style="margin-top: 0px; display:flex; justify-content: space-between; align-items: center; "> 
+<div class="d-flex gap-3 mb-1" style="width: fit-content;">
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">ID#</button>
+    <ul class="dropdown-menu" id="labeltFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Date</button>
+    <ul class="dropdown-menu" id="dateFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Label</button>
+    <ul class="dropdown-menu" id="posterFilter"></ul>
+  </div>
+  <div class="dropdown"> 
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">week#</button>
+    <ul class="dropdown-menu" id="weekNoFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">month</button>
+    <ul class="dropdown-menu" id="monthNoFilter"></ul>
+  </div>
+
+
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">FNAME</button>
+    <ul class="dropdown-menu" id="FNAMEFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">PPE</button>
+    <ul class="dropdown-menu" id="PPEFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">JOB</button>
+    <ul class="dropdown-menu" id="JOBFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Location</button>
+    <ul class="dropdown-menu" id="LOCFilter"></ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Status</button>
+    <ul class="dropdown-menu" id="STATFilter"></ul>
+  </div>
+
+</div>
+
+<div style="display: flex; align-items: center; gap: 1em;"> 
+  <div>
+<img onclick="location.reload()" id="relodImg" src="imgsStore/refresh2.png" alt="relodImg">
+  </div>
+  <div>
+     <button id="unfilterBtn" title="Clear filters" class="btn btn-outline-secondary ms-2" type="button"><i class="fa-solid fa-filter-circle-xmark fa-lg"></i></button>
+  </div>
+  <div>
+    <img id="dcscLogo" src="imgsStore/dcscLogo.png" alt="DCSClogo">
+  </div>
+</div>
+
+</div>
+
+  
+
+  <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="Enter poster name">
+ 
+<div id="tablewrapper" style="max-height:70vh; min-height:40vh; overflow:auto; -webkit-overflow-scrolling: touch;">
+  <table id="myTable" class="table table-black table-striped table-bordered mt-0">
+    <thead class="table-dark " style="text-align: center;">
+      <tr>
+        <th>SNo</th>
+        <th>Date</th>
+        <th class="d-none">WK#</th>
+        <th class="d-none">MNTH</th>
+        <th>ID#</th>
+        <th>FULL NAME <span id="spn"></span> </th>
+        <th>PPE TYPE</th>
+        <th>QNTY</th>
+        <th>LABEL</th>
+        <th>LOCATION</th>
+        <th>JOB</th>
+        <th>STATUS</span> </th>
+        <th>PHONE#</th>
+        <th>POSTER</th>
+        <th class="d-none">POSTtime</th>
+        <th style="padding-top: 0px;"><span id="cc">C/Center</span> <button class="btn btn-success ms-1" data-bs-toggle="modal" data-bs-target="#actionModal" id="add-0"><i class="fa-solid fa-plus"></i></button></th>
+      </tr>
+    </thead>
+    <tbody id="tbody1"></tbody>
+    <tfoot style="font-weight: bolder;text-align: center;">
+      <td colspan="5" id="totalsRow">TOTALS</td>  <td  id="QtyCount"></td><td style="text-align: center;" colspan="2" id="PeopleCount"></td> <td></td> <td></td> <td></td>
+    </tfoot>
+  </table>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="actionModal" tabindex="-1" aria-labelledby="actionModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="actionLabel"></h1>
+        <button type="button" class="btn btn-danger ms-3" data-bs-toggle="modal" data-bs-target="#actionModal" id="modXButton"> <i class="fa-solid fa-x"></i> </button>
+      </div>
+      <div class="modal-body" style="max-height: 28em;overflow-y: auto;">
+        <div class="mb-3">
+          <label for="modDate" class="form-label">Date:</label>
+          <input type="text" class="form-control order border-primary" id="modDate">
+        </div>
+        
+        <div style="display: flex;gap: 1em; flex-direction: row;">
+           <div class="mb-3" ">
+          <label for="mod_IDNo" class="form-label">ID#:</label>
+          <input style="width: 3em;" type="text" class="form-control order border-primary" id="mod_IDNo" oninput="this.value=this.value.replace(/[^0-9]/g,'')" >
+        </div>
+        <div class="mb-3">
+          <label for="mod_FNAME" class="form-label">FULL NAME:</label>
+          <input style="width: 16em;" readonly type="text" class="form-control order border-primary" id="mod_FNAME">
+        </div>
+
+         <div class="mb-3">
+          <label for="modJOB" class="form-label">JOB:</label>
+          <input style="width: 8em;" readonly type="text" class="form-control order border-primary" id="modJOB">
+        </div>
+        </div>
+
+        <!-- 3rd ROW -->
+         <div style="display: flex;gap: 1em; flex-direction: row;justify-content:center">
+        <div  class="mb-3">
+          <label for="modLOC" class="form-label">Terminal</label>
+          <select style="width: 8em;" class="form-control order border-primary" id="modLOC">
+            
+            <option value="B/TERMINAL" style="font-style: italic;">B/TERMINAL</option>
+            <option value="MCCL" style="font-style: italic;">MCCL</option>
+            <option value="KISARAWE" style="font-style: italic;">KISARAWE</option>
+            <option value="PORT" style="font-style: italic;">PORT</option>
+            <option value="MINJINGU" style="font-style: italic;">MINJINGU</option>
+            <!-- Add more items as needed -->
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="modPPE" class="form-label">PPE TYPE</label>
+          <select style="width: 8em;" class="form-control order border-primary" id="modPPE">
+            
+            <option value="Helmet">Helmet</option>
+            <option value="Overall">Overall</option>
+            <option value="Trs&Coat">Trs&Coat</option>
+            <option value="Gloves">Gloves</option>
+            <option value="Boots">Boots</option>
+            <option value="Vest">Vest</option>
+            <option value="Goggles">Goggles</option>
+            <!-- Add more items as needed -->
+          </select>
+        </div>
+
+        <div  class="mb-3">
+          <label for="modLAB" class="form-label">Label</label>
+
+          <input style="width: 8em;" type="text"  class="form-control order border-primary" id="modLAB" oninput="this.value=this.value.replace(/[^0-9]{4}/g,'')">
+        </div>
+        </div>
+
+       
+                                
+
+        <div style="display: flex;gap: 1em;justify-content: center;">
+         <div  class="mb-3">
+          <label for="modQNTY" class="form-label">QNTY</label>
+          <input type="text" class="form-control order border-primary" id="modQNTY" oninput="(this.value=this.value.replace(/[^0-9]/g,''))">
+        </div>
+         
+         <div  class="mb-3">
+          <label for="modSTAT" class="form-label">Status</label>
+           <select class="form-control order border-primary" id="modSTAT">
+           
+            <option value="Debt" style="font-style: italic;">Debt</option>
+            <option value="Returned" style="font-style: italic;">Returned</option>
+            
+            <!-- Add more items as needed -->
+          </select>
+        </div>
+        <div  class="mb-3">
+          <label for="modPHONE" class="form-label">Phone#</label>
+          <input type="number" class="form-control order border-primary" id="modPHONE">
+        </div>
+        </div>
+        
+
+        
+         
+
+        <div hidden class="mb-3">
+          <label for="modposter" class="form-label">poster:</label>
+          <input readonly type="text" class="form-control order border-primary" id="modposter">
+        </div>
+        <div hidden class="mb-3">
+          <label for="modTimer" class="form-label">Time:</label>
+          <input readonly type="text" class="form-control order border-primary" id="modTimer">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="actionBtn"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  import { getDatabase, ref, update, onValue, child, get, set, remove, push } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-database.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAP495Bl7sl2QPpU_oND2Xp0E8hysINkpY",
+    authDomain: "nestounused1.firebaseapp.com",
+    databaseURL: "https://nestounused1-default-rtdb.firebaseio.com",
+    projectId: "nestounused1",
+    storageBucket: "nestounused1.appspot.com",
+    messagingSenderId: "510760073211",
+    appId: "1:510760073211:web:e5726757d052b92405fd5e"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  ///
+
+
+  let dateList = [];
+  let sno = 0;
+  let tbody1 = document.getElementById("tbody1");
+  let selectedIndex = -1;
+
+  const SelectAllDataRealtime = () => {
+    const dbRef = ref(db, "mysetDaily");
+    onValue(dbRef, (snapshot) => {
+      dateList = [];
+      snapshot.forEach(dates => {
+        dateList.push({ key: dates.key, ...dates.val() });
+      });
+      AddAllRecords();
+      updateTotals();
+      separated(); 
+    });
+
+    
+  }
+  /////
+
+  const calculateCustomWeekAndMonth = (dateStr) => {
+  const dateParts = dateStr.split('-');
+  const day = parseInt(dateParts[0], 10);
+  const month = parseInt(dateParts[1], 10) - 1;
+  const year = parseInt(dateParts[2], 10);
+
+  const currentDate = new Date(year, month, day);
+  const startDate = new Date(2025, 5, 6); // 06 June 2025
+
+  const firstWeekNumber = 24;
+  const diffInMs = currentDate - startDate;
+  const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+  const weekNumber = firstWeekNumber + Math.floor(diffInDays / 7);
+
+  const monthName = currentDate.toLocaleString('default', { month: 'short' });
+
+  return { week: weekNumber, month: monthName };
+};
+
+////////
+
+  const AddSingleRecord = (dater, ID_NO, Full_Name, PPE_type, poster, timer, Quantitty, Label, Status, Locationn, PhoneNo, jobb, recordKey ) => {
+    let trow = document.createElement('tr');
+
+// Calculate Week# and Month
+  let weekInfo = calculateCustomWeekAndMonth(dater);
+
+
+    let td1 = document.createElement('td');
+    let td2 = document.createElement('td');
+    let td3 = document.createElement('td');
+    let td4 = document.createElement('td');
+    let td5 = document.createElement('td');
+    let td6 = document.createElement('td');
+    let td7 = document.createElement('td');
+    let td8 = document.createElement('td');
+    let td9 = document.createElement('td');
+td9.textContent = Label;
+
+// Wait until rendered, then attach tooltip only if text is truncated
+requestAnimationFrame(() => {
+  if (td9.scrollWidth > td9.clientWidth) {
+    td9.setAttribute("data-bs-toggle", "tooltip");
+    td9.setAttribute("data-bs-placement", "top");
+    td9.setAttribute("data-bs-title", Label);
+    new bootstrap.Tooltip(td9);
+  }
+});
+
+    let td10 = document.createElement('td');
+    let td11 = document.createElement('td');
+    let td12 = document.createElement('td');
+    let td13 = document.createElement('td');
+    let td14 = document.createElement('td');
+    let td15 = document.createElement('td');
+    let td16 = document.createElement('td');
+   
+
+    td1.textContent = ++sno;
+    td2.textContent = dater;
+    td3.textContent = weekInfo.week;
+    td4.textContent = weekInfo.month;
+
+td3.className = "d-none";
+td4.className = "d-none";
+
+
+    td5.textContent = ID_NO;
+    td6.textContent = Full_Name;
+    td7.textContent = PPE_type;
+
+    td8.textContent = Quantitty;
+    td9.textContent = Label;
+    td10.textContent = Locationn;
+    td11.textContent = jobb;
+    td12.textContent = Status;
+    td13.textContent = PhoneNo;
+    td14.textContent = poster;
+    td15.textContent = timer;
+
+    td15.className = "d-none";
+    // Add click event to Poster cell
+  td14.style.cursor = "pointer";
+  td14.addEventListener('click', function() {
+    alert("Post time for this poster: " + td15.textContent);
+    // Or do something else with td14.textContent
+  });
+
+    // Add double-click event to Status cell
+    td12.style.cursor = "pointer";
+    td12.style.userSelect = "none";
+    td12.addEventListener('dblclick', function(e) {
+      e.stopPropagation();
+      const currentStatus = td12.textContent.trim();
+      const newStatus = currentStatus === 'Debt' ? 'Returned' : 'Debt';
+      
+      // Update the cell
+      td12.textContent = newStatus;
+      
+      // Update Firebase
+      const updateRef = ref(db, 'mysetDaily/' + recordKey);
+      update(updateRef, { Status: newStatus }).catch((error) => {
+        console.error("Error updating status:", error);
+        // Revert on error
+        td12.textContent = currentStatus;
+      });
+    });
+
+    // Add mouseover/mouseout event to highlight the row
+    td12.addEventListener('mouseover', function() {
+      trow.style.backgroundColor = 'rgba(13, 110, 253, 0.2)';
+      trow.style.border = '2px solid #0d6efd';
+      trow.style.boxShadow = '0 0 8px rgba(13, 110, 253, 0.4)';
+    });
+
+    td12.addEventListener('mouseout', function() {
+      trow.style.backgroundColor = '';
+      trow.style.border = '';
+      trow.style.boxShadow = '';
+    });
+
+    let EditButton = document.createElement("button");
+    let DelButton = document.createElement("button");
+
+    EditButton.id = 'edit-' + sno;
+    EditButton.className = 'btn btn-primary me-2';
+    EditButton.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>';
+    EditButton.setAttribute('data-bs-toggle', "modal");
+    EditButton.setAttribute('data-bs-target', "#actionModal");
+    EditButton.addEventListener('click', LoadModal);
+
+    DelButton.id = 'del-' + sno;
+    DelButton.className = 'btn btn-danger me-2';
+    DelButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
+    DelButton.setAttribute('data-bs-toggle', "modal");
+    DelButton.setAttribute('data-bs-target', "#actionModal");
+    DelButton.addEventListener('click', LoadModal);
+
+    td16.append(EditButton, DelButton);
+    trow.append(td1, td2, td3, td4, td5, td6, td7, td8, td9, td10, td11, td12, td13, td14, td15, td16);
+    tbody1.appendChild(trow);
+  }
+
+  const AddAllRecords = () => {
+    sno = 0;
+    tbody1.innerText = "";
+    dateList.forEach(dates => {
+      AddSingleRecord(dates.dater, dates.ID_NO, dates.Full_Name, dates.PPE_type, dates.poster, dates.timer,
+                     dates.Quantitty, dates.Label, dates.Status, dates.Locationn, dates.PhoneNo, dates.jobb, dates.key);
+    });
+  
+
+    const tableRows = document.querySelectorAll('#tbody1 tr');
+
+const labeltFilter = document.getElementById('labeltFilter');
+const dateFilter = document.getElementById('dateFilter');
+const posterFilter = document.getElementById('posterFilter');
+const weekNoFilter = document.getElementById('weekNoFilter');
+const monthNoFilter = document.getElementById('monthNoFilter');
+
+const FNAMEFilter = document.getElementById('FNAMEFilter');
+const PPEFilter = document.getElementById('PPEFilter');
+const LOCFilter = document.getElementById('LOCFilter');
+const STATFilter = document.getElementById('STATFilter');
+const JOBFilter = document.getElementById('JOBFilter');
+
+// Helper to get unique column values
+function getUniqueValues(colIndex) {
+  const values = new Set();
+  tableRows.forEach(row => {
+    values.add(row.cells[colIndex].textContent);
+  });
+  return Array.from(values);
+}
+
+// Generate checkboxes for a filter dropdown
+function createCheckboxes(values, container) {
+  container.innerHTML = "";
+
+  // Add search input at the top of the dropdown
+  const searchLi = document.createElement('li');
+  searchLi.className = 'dropdown-search-li px-2';
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.className = 'form-control form-control-sm dropdown-search-input';
+  searchInput.placeholder = 'Search...';
+  // prevent dropdown from closing when interacting with the input
+  searchInput.addEventListener('click', e => e.stopPropagation());
+  searchInput.addEventListener('keydown', e => e.stopPropagation());
+  searchInput.addEventListener('keyup', e => e.stopPropagation());
+  searchLi.appendChild(searchInput);
+  container.appendChild(searchLi);
+
+  values.forEach(value => {
+    const li = document.createElement('li');
+    const label = document.createElement('label');
+    label.classList.add('dropdown-item');
+
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = value;
+    checkbox.addEventListener('change', filterRows);
+
+    // prevent clicks on the checkbox from closing the dropdown
+    checkbox.addEventListener('click', e => e.stopPropagation());
+
+    label.appendChild(checkbox);
+    label.append(' ' + value);
+    li.appendChild(label);
+    container.appendChild(li);
+  });
+
+  // Filter list items as user types
+  searchInput.addEventListener('input', function() {
+    const term = this.value.trim().toLowerCase();
+    const items = Array.from(container.querySelectorAll('li')).filter(li => !li.classList.contains('dropdown-search-li'));
+    items.forEach(li => {
+      const text = li.textContent.toLowerCase();
+      li.style.display = text.includes(term) ? '' : 'none';
+    });
+  });
+
+  // Focus search input when dropdown opens
+  const dropdownEl = container.closest('.dropdown');
+  if (dropdownEl) {
+    dropdownEl.addEventListener('shown.bs.dropdown', () => {
+      setTimeout(() => searchInput.focus(), 0);
+    });
+  }
+}
+
+// Initialize filters
+createCheckboxes(getUniqueValues(4), labeltFilter); // Project#
+createCheckboxes(getUniqueValues(1), dateFilter);  // Date
+createCheckboxes(getUniqueValues(8), posterFilter); // Poster
+createCheckboxes(getUniqueValues(2), weekNoFilter); // weekNo
+createCheckboxes(getUniqueValues(3), monthNoFilter); // monthNo
+
+createCheckboxes(getUniqueValues(5), FNAMEFilter); // FNAME
+createCheckboxes(getUniqueValues(6), PPEFilter); // PPE
+createCheckboxes(getUniqueValues(9), LOCFilter); // LOC
+createCheckboxes(getUniqueValues(11), STATFilter); // STAT
+createCheckboxes(getUniqueValues(10), JOBFilter); // STAT
+
+/////
+    highlightDebtRows()
+
+function filterRows() {
+  const selectedProjects = Array.from(labeltFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedDates = Array.from(dateFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedPosters = Array.from(posterFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedweekNo = Array.from(weekNoFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedmonthNo = Array.from(monthNoFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+ 
+  const selectedFNAME = Array.from(FNAMEFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+  const selectedPPE = Array.from(PPEFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+ const selectedLOC = Array.from(LOCFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+ const selectedSTAT = Array.from(STATFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+ const selectedJOB = Array.from(JOBFilter.querySelectorAll('input:checked')).map(cb => cb.value);
+ 
+  tableRows.forEach(row => {
+    const projectText = row.cells[4].textContent;
+    const dateText = row.cells[1].textContent;
+    const posterText = row.cells[8].textContent;
+    const weekNoText = row.cells[2].textContent;
+    const monthNoText = row.cells[3].textContent;
+
+    const FNAMEText = row.cells[5].textContent;
+    const PPEText = row.cells[6].textContent;
+    const LOCText = row.cells[9].textContent;
+    const STATText = row.cells[11].textContent;
+    const JOBText = row.cells[10].textContent;
+    
+
+    const projectMatch = selectedProjects.length === 0 || selectedProjects.includes(projectText);
+    const dateMatch = selectedDates.length === 0 || selectedDates.includes(dateText);
+    const posterMatch = selectedPosters.length === 0 || selectedPosters.includes(posterText);
+    const weekNoMatch = selectedweekNo.length === 0 || selectedweekNo.includes(weekNoText);
+    const monthNoMatch = selectedmonthNo.length === 0 || selectedmonthNo.includes(monthNoText);
+
+    const FNAMEMatch = selectedFNAME.length === 0 || selectedFNAME.includes(FNAMEText);
+    const PPEMatch = selectedPPE.length === 0 || selectedPPE.includes(PPEText);
+    const LOCMatch = selectedLOC.length === 0 || selectedLOC.includes(LOCText);
+    const STATMatch = selectedSTAT.length === 0 || selectedSTAT.includes(STATText);
+    const JOBMatch = selectedJOB.length === 0 || selectedJOB.includes(JOBText);
+
+    if (projectMatch && dateMatch && posterMatch && weekNoMatch && monthNoMatch  && FNAMEMatch && PPEMatch && LOCMatch && STATMatch && JOBMatch) {
+      row.style.display = '';
+    } else {
+      row.style.display = 'none';
+    }
+  });
+
+ updateTotals();
+ highlightDebtRows()
+}
+    
+  }
+
+  let modXButton = document.getElementById("modXButton");
+  let actionLabel = document.getElementById("actionLabel");
+  let actionBtn = document.getElementById("actionBtn");
+  let addBtn = document.getElementById("add-0");
+  let modDate = document.getElementById("modDate");
+  let mod_IDNo = document.getElementById("mod_IDNo");
+  let mod_FNAME = document.getElementById("mod_FNAME");
+  let modPPE = document.getElementById("modPPE");
+  let modposter = document.getElementById("modposter");
+  let modTimer = document.getElementById("modTimer");
+
+  let modQNTY = document.getElementById("modQNTY");
+  let modLAB = document.getElementById("modLAB");
+  let modSTAT = document.getElementById("modSTAT");
+  let modLOC = document.getElementById("modLOC");
+  let modPHONE = document.getElementById("modPHONE");
+  let modJOB = document.getElementById("modJOB");
+  
+
+  let posterName = "";
+
+  // Fetch user name from sessionStorage instead of prompting
+  window.addEventListener('load', () => {
+    const posterInput = document.getElementById("posterInput");
+    const userName = sessionStorage.getItem('userName');
+    
+    if (userName) {
+      posterInput.value = userName;
+      SelectAllDataRealtime();
+      updateTotals();
+    } else {
+      alert("No user ID found. Please go back to index page and enter your ID.");
+      window.location.href = 'index.html';
+    }
+  });
+
+  const LoadModal = (event) => {
+    const targetId = (event.target.id.length > 1) ? event.target.id : event.target.parentElement.id;
+    const string = targetId.split('-');
+    const mode = string[0];
+    selectedIndex = string[1] - 1;
+
+    // Authorization check for edit and delete modes
+    if (mode === 'edit' || mode === 'del') {
+      const currentUserPoster = document.getElementById("posterInput").value;
+      const rowPoster = dateList[selectedIndex].poster;
+      const isAdmin = currentUserPoster === "N Mahunja";
+      
+      if (!isAdmin && rowPoster !== currentUserPoster) {
+        alert("You can only update your data.");
+        return;
+      }
+    }
+
+actionBtn.replaceWith(actionBtn.cloneNode(true));
+    actionBtn = document.getElementById("actionBtn");
+    actionBtn.disabled = false;
+
+    if (mode === 'add') {
+      actionBtn.className = 'btn btn-lg btn-success';
+      actionLabel.innerText = 'Add New Record';
+      actionBtn.innerText = 'Add';
+      actionBtn.addEventListener('click', AddData);
+
+      // Set current date in d-m-Y format
+      const now = new Date();
+      const day = String(now.getDate()).padStart(2, '0');
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const year = now.getFullYear();
+      const formattedDate = day + '-' + month + '-' + year;
+
+      modDate.value = formattedDate;
+      mod_IDNo.value = "";
+      mod_FNAME.value = "";
+      modPPE.value = "Helmet";
+      modposter.value = posterInput.value;
+      modTimer.value = "";
+
+      modQNTY.value = "1";
+      modLAB.value = "";
+      modSTAT.value = "Debt";
+      modLOC.value = "B/TERMINAL";
+      modPHONE.value = "";
+      modJOB.value = "";
+      // ensure name and job inputs are readonly by default until lookup shows NOT FOUND
+      mod_FNAME.readOnly = true;
+      modJOB.readOnly = true;
+    } else if (mode === 'edit') {
+      setInterval(() => {
+        const now = new Date();
+        const options = { month: 'short' };
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        const month = now.toLocaleString('en-US', options);
+        const year = String(now.getFullYear()).slice(-2);
+        modTimer.value = hours + ":" + minutes + ", " + day + " " + month + " " + year;
+      }, 1000);
+
+      actionBtn.className = 'btn btn-lg btn-primary';
+      actionLabel.innerText = 'Edit Record';
+      actionBtn.innerText = 'Update';
+      actionBtn.addEventListener("click", UpdData);
+
+      modDate.value = dateList[selectedIndex].dater;
+      mod_IDNo.value = dateList[selectedIndex].ID_NO;
+      mod_FNAME.value = dateList[selectedIndex].Full_Name;
+      modPPE.value = dateList[selectedIndex].PPE_type;
+      modposter.value = posterInput.value;
+      modTimer.value = dateList[selectedIndex].timer;
+
+      modQNTY.value = dateList[selectedIndex].Quantitty;
+      modLAB.value = dateList[selectedIndex].Label.replace(/^CL\s+/, '');
+      modSTAT.value = dateList[selectedIndex].Status;
+      modLOC.value = dateList[selectedIndex].Locationn;
+      modPHONE.value = dateList[selectedIndex].PhoneNo;
+      modJOB.value = dateList[selectedIndex].jobb;
+      // keep these readonly when editing existing record
+      mod_FNAME.readOnly = true;
+      modJOB.readOnly = true;
+    } else if (mode === 'del') {
+      actionBtn.className = 'btn btn-lg btn-danger';
+      actionLabel.innerText = 'Delete This Record';
+      actionBtn.innerText = 'Confirm Delete';
+      actionBtn.addEventListener("click", DelData);
+
+      modDate.value = dateList[selectedIndex].dater;
+      mod_IDNo.value = dateList[selectedIndex].ID_NO;
+      mod_FNAME.value = dateList[selectedIndex].Full_Name;
+      modPPE.value = dateList[selectedIndex].PPE_type;
+      modposter.value = posterInput.value;
+      modTimer.value = dateList[selectedIndex].timer;
+
+      modQNTY.value = dateList[selectedIndex].Quantitty;
+      modLAB.value = dateList[selectedIndex].Label.replace(/^CL\s+/, '');
+      modSTAT.value = dateList[selectedIndex].Status;
+      modLOC.value = dateList[selectedIndex].Locationn;
+      modPHONE.value = dateList[selectedIndex].PhoneNo;
+      modJOB.value = dateList[selectedIndex].jobb;
+    }
+  }
+
+  const AddData = () => {
+  actionBtn.disabled = true;
+
+  const now = new Date();
+  const options = { month: 'long' };
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const month = now.toLocaleString('en-US', options);
+  const year = String(now.getFullYear()).slice(-2);
+
+  const curentTime = hours + ":" + minutes + ", " + day + " " + month + " " + year;
+
+  const dbRef = ref(db, 'mysetDaily');
+  push(dbRef, {
+    dater: modDate.value,
+    ID_NO: Number(mod_IDNo.value),
+    Full_Name: mod_FNAME.value,
+    PPE_type: modPPE.value,
+    poster: modposter.value,
+    timer: curentTime,
+
+    Quantitty: modQNTY.value,
+    Label: "CL "+ modLAB.value,
+    Status: modSTAT.value,
+    Locationn: modLOC.value,
+    PhoneNo: modPHONE.value,
+    jobb: modJOB.value
+  }).then(() => {
+    modXButton.click();
+  });
+};
+  const UpdData = () => {
+  actionBtn.disabled = true;
+
+  const recordKey = dateList[selectedIndex].key;
+
+  set(ref(db, 'mysetDaily/' + recordKey), {
+    dater: modDate.value,
+    ID_NO: Number(mod_IDNo.value),
+    Full_Name: mod_FNAME.value,
+    PPE_type: modPPE.value,
+    poster: modposter.value,
+    timer: modTimer.value,
+    Quantitty: modQNTY.value,
+    Label: "CL "+ modLAB.value,
+    Status: modSTAT.value,
+    Locationn: modLOC.value,
+    PhoneNo: modPHONE.value,
+    jobb: modJOB.value
+  }).then(() => {
+    modXButton.click();
+  });
+};
+  const DelData = () => {
+    if (posterInput.value !== "N Mahunja") {
+        alert("You are not Admin, Can't Delete Data");
+        return;
+    }
+
+    actionBtn.disabled = true;
+
+    const recordKey = dateList[selectedIndex].key;
+
+    remove(ref(db, 'mysetDaily/' + recordKey)).then(() => {
+        modXButton.click();
+    });
+};
+
+  addBtn.addEventListener('click', LoadModal);
+/////////////////////STORE//////////////////////
+mod_IDNo.onkeyup = () => {
+  const IDNo_value = document.getElementById("mod_IDNo").value.trim();
+  
+    if (!IDNo_value) {
+    mod_FNAME.value = "";
+    modJOB.value = "";
+    mod_FNAME.readOnly = true;
+    modJOB.readOnly = true;
+    return;  }
+
+      const idRef = ref(db, 'CL_IDs/' + IDNo_value);
+
+      get(idRef).then((snapshot) => {
+        if (snapshot.exists()) {
+          document.getElementById("modJOB").value = snapshot.val().Job;
+          document.getElementById("mod_FNAME").value = snapshot.val().Name;
+          document.getElementById("mod_FNAME").readOnly = true;
+          document.getElementById("modJOB").readOnly = true;
+          
+        } else {
+          document.getElementById("mod_FNAME").value="NOT FOUND";
+          document.getElementById("modJOB").value="NOT FOUND";
+          document.getElementById("mod_FNAME").readOnly = false;
+          document.getElementById("modJOB").readOnly = false;
+        }
+      }).catch((error) => {
+        console.error("Error fetching ID:", error);
+      });
+    }
+    ////////////////////////////////////////
+
+  flatpickr("#modDate", { dateFormat: "d-m-Y" });
+/*
+  // Restrict modLAB to numbers only
+  modLAB.addEventListener('input', function() {
+    this.value = this.value.replace(/[^0-9]/g, '');
+  });  */
+
+  function updateTotals() {
+  const table = document.getElementById("myTable");
+  const rows = table.querySelectorAll("tbody tr");
+
+  let daySum = 0;
+  let nightSum = 0;
+
+  rows.forEach(row => {
+    if (row.id === "totalsRow") return;
+
+    // Skip rows that are hidden by filtering
+    if (row.style.display === "none") return;
+     nightSum++;
+     ///
+    const cells = row.querySelectorAll("td");
+    const dayVal = parseInt(cells[7].textContent.replace(/,/g, "")) || 0;
+    //const nightVal = parseInt(cells[6].textContent.replace(/,/g, "")) || 0;
+
+    daySum += dayVal;
+   // nightSum += nightVal;
+  });
+
+  document.getElementById("QtyCount").textContent = daySum.toLocaleString();
+  document.getElementById("PeopleCount").textContent = nightSum.toLocaleString() + " workers";
+}
+////
+
+function highlightDebtRows() {
+  const tableRows = document.querySelectorAll('#tbody1 tr');
+  let hasDebt = false;
+  tableRows.forEach(row => {
+    const statusCell = row.cells[11]; // STATUS column index
+    const nameCell = row.cells[5];    // FULL NAME column index
+    if (statusCell && statusCell.textContent.trim() === "Debt" && row.style.display !== "none") {
+      nameCell.style.color = "red";
+     // nameCell.style.webkitTextStroke=".31px white " ;
+      nameCell.style.setProperty("font-weight","bolder");
+      //nameCell.style.setProperty("-webkit-text-stroke","1px blue");
+     // nameCell.style.textShadow = "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000";
+      statusCell.style.color = "red";
+     statusCell.style.setProperty("font-weight","bolder");
+     // statusCell.style.textShadow = "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000";
+    
+      hasDebt = true;
+    } else {
+      nameCell.style.color = ""; // Reset color if not Debt
+    }
+  });
+  const spn = document.getElementById("spn");
+  spn.style.backgroundColor = hasDebt ? "red" : "transparent";
+
+
+}
+//////
+
+// Add unfilter button functionality: clears all filter checkboxes and search inputs then reapplies filtering
+const unfilterBtnEl = document.getElementById('unfilterBtn');
+if (unfilterBtnEl) {
+  unfilterBtnEl.addEventListener('click', function() {
+    const filterIds = ['labeltFilter','dateFilter','posterFilter','weekNoFilter','monthNoFilter','FNAMEFilter','PPEFilter','LOCFilter','STATFilter','JOBFilter'];
+    filterIds.forEach(id => {
+      const container = document.getElementById(id);
+      if (!container) return;
+      // uncheck all checkboxes
+      container.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+      // clear search input and show all items
+      const search = container.querySelector('.dropdown-search-input');
+      if (search) {
+        search.value = '';
+        const items = Array.from(container.querySelectorAll('li')).filter(li => !li.classList.contains('dropdown-search-li'));
+        items.forEach(li => li.style.display = '');
+      }
+    });
+    // reapply filters (empty selections => show all rows)
+    // trigger change events on checkboxes so the existing handler runs (filterRows is defined inside dropdown init)
+    filterIds.forEach(fid => {
+      const c = document.getElementById(fid);
+      if (!c) return;
+      const anyCb = c.querySelector('input[type="checkbox"]');
+      if (anyCb) anyCb.dispatchEvent(new Event('change'));
+    });
+  });
+}
+
+let debtNameCells = [];
+let currentDebtIndex = -1;
+
+document.getElementById("spn").onclick = function() {
+  // Find all FULL NAME cells with STATUS "Debt" and visible
+  const tableRows = document.querySelectorAll('#tbody1 tr');
+  debtNameCells = [];
+  tableRows.forEach(row => {
+    const statusCell = row.cells[11];
+    const nameCell = row.cells[5];
+    if (
+      statusCell &&
+      statusCell.textContent.trim() === "Debt" &&
+      row.style.display !== "none"
+    ) {
+      debtNameCells.push(nameCell);
+    }
+  });
+
+  if (debtNameCells.length === 0) return;
+
+  // Remove outline from all
+  debtNameCells.forEach(cell => cell.style.outline = "");
+
+  // Move to next index
+  currentDebtIndex = (currentDebtIndex + 1) % debtNameCells.length;
+
+  // Add outline to current cell
+  debtNameCells[currentDebtIndex].style.outline = "3px solid orange";
+  debtNameCells[currentDebtIndex].scrollIntoView({ behavior: "smooth", block: "center" });
+};
+////
+
+</script>
+
+</body>
+
+</html>
