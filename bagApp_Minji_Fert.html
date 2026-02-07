@@ -24,8 +24,8 @@
     #myTable tfoot td{position: sticky;bottom:0}
     #dayTotal, #nightTotal {border:2px solid green;background-color: rgb(51, 8, 8);color: white;}
     #grandTotal{color:yellow;font-style: italic; font-weight: bolder;border: 2px solid green;background-color: rgb(51, 8, 8);border-radius: 20px;}
-    #dcscLogo{animation:spin 8s linear infinite;width:70px;height:70px; border-radius: 50%; }
-    #homeImg{width:50px;height:50px;cursor: pointer;}
+    #dcscLogo{animation:spin 8s linear infinite;width:50px;height:50px; border-radius: 50%;}
+    #homeImg{width:28px;height:28px;cursor: pointer;}
     #homeImg:active{transform: translateY(4px);}
     #homeImg:hover{transform: scale(1.04);}
 
@@ -38,13 +38,13 @@
    #LogoutBtn:hover, [printbtn]:hover {background-color: grey;color:white} 
    #LogoutBtn:active, [printbtn]:active {transform: translateY(4px);}
     #relodImg:hover{transform: scale(1.3);background-color: rgb(235, 230, 225);}
-    #relodImg{cursor: pointer; width: 30PX; height: 30px;}
+    #relodImg{cursor: pointer; width: 28px; height: 28px;}
     .dropdown-menu { max-height: 200px; overflow-y: auto; }
     th { vertical-align: middle; white-space: nowrap; }
     #cc { position: relative; top: px; }
     #tbody1 td { padding-top: 0%; padding-bottom: 0%; height: fit-content; vertical-align: middle; text-align: center;min-height: 10px;white-space: nowrap; overflow: visible; }
   #tbody1 th {min-height: 10px;white-space: nowrap; overflow: visible; }
-   #myTable caption{visibility: hidden;}
+    #myTable caption{visibility: hidden;}
 
   /* Print Styles */
 @media print {
@@ -99,14 +99,26 @@
   </style>
 </head>
 <body>
-
+<div style="background-color: #f8f9fa; padding:7px 10px;margin-bottom: 5px; border-bottom: 2px solid #dee2e6; display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; gap: 15px;">
+    <a href="index.html" style="text-decoration: none; color: #0d6efd; font-weight: 600; font-size: 0.95em;" title="Go to Home">
+      <i class="fas fa-home"></i> Home
+    </a>
+    <a href="storeReport_good1.html" style="text-decoration: none; color: #0d6efd; font-weight: 600; font-size: 0.95em;" title="Switch to Uniform Distribution Report">
+      <i class="fas fa-exchange-alt"></i> Uniforms Report
+    </a>
+  </div>
+  <div style="font-size: 0.85em; color: #6c757d;">
+    <i class="fas fa-file-alt"></i> Fertilizer Bagging Operation 2026_ <i>Minjingu (PUGU)</i>
+  </div>
+</div>
 
 
 <div class="table-responsive" id="cont" style="margin-left: 5%;width:fit-content;">
-              <div id="holdTops" style="z-index: 5; position: fixed; top: 0; background-color: white;margin-bottom: 0%;">
-  <h5>Fertilizer Bagging Operation 2025_ <i>Minjingu (PUGU)</i></h5>
-                <div style="display: flex;gap:3em;">
-  <div class="d-flex gap-3 mb-0" style="width: fit-content;">
+              <div id="holdTops" style=" z-index: 5;position: relative; background-color: white;margin-bottom: 0%;">
+  <h5>Fertilizer Bagging Operation 2026_ <i>Minjingu (PUGU)</i> </h5>
+                <div style="display: flex;gap:3em;align-items: center; border: 1px;">
+  <div class="d-flex gap-3 mb-0" style="width: fit-content;border: 1px;">
   <div class="dropdown">
     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">Project#</button>
     <ul class="dropdown-menu" id="projectFilter"></ul>
@@ -134,7 +146,7 @@
 
 </div>
 
-<div style=" margin-top:0px; position: relative; bottom: 22px; display: flex; gap: 2em; align-items: center;justify-content: center;">
+<div style="max-height:40px ;  margin-top:0px;margin-bottom: 0px; display: flex; gap: 2em; align-items: center;justify-content: center;">
   <div>
     <img id="unfilterImg" src="imgsBag/unfilter3.png" alt="unfilter_img"  data-bs-toggle="tooltip" title="Unfilter">
   </div>
@@ -155,27 +167,27 @@
   </div>
 
                     
-         <div class="mido"  style="margin-bottom: 0px; background-color: rgb(175, 175, 240); display: flex; gap: 5em;position: absolute;top: 4.7em;">
+         <div class="mido"  style=" background-color: rgb(175, 175, 240); display: flex; gap: 5em;width:fit-content">
   <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="poster name">
   <input style=" width:fit-content;" type="number" id="projectBox" class="form-control mb-0" placeholder="enter project#">
    <button id="LogoutBtn">Logout</button>
 
     <span style="position: relative;bottom: -7px;">
   <select onchange="if(this.value){window.location=this.value}" style=" border-radius: 10px;width: 7em; ">
-    <option value="">select year..</option>
+     <option value="">select year..</option>
     <option value="bagApp_Minji_Fert.html">2025</option>
     <option value="bagApp_Minji_Fert_2026.html">2026</option>
   </select> </span>
-      
+       
     
   
   </div>
                      
 
              </div>
-           <div id="tableContainer" style="max-height: 80vh; overflow:scroll;margin-top: 7em;margin-bottom: 0;">
+           <div id="tableContainer" style="max-height: 75vh; overflow:scroll;margin-bottom: 0;">
   <table table1 id="myTable" class="table table-dark table-bordered "> 
-    <caption>FERTILIZER OPERATIONS_2025</caption>
+    <caption>FERTILIZER OPERATIONS_2026</caption>
     <thead style="text-align: center">
       <tr>
         <th>SNo</th>
@@ -310,7 +322,7 @@ autoScroll = false;
           const tooltipHTML = `
             <strong>Project Details</strong><br/>
             <span>Project #: ${projectNum}</span><br/>
-            <span>Vessel: ${projectData.Vessel_name}</span><br/>
+            <span>Vessel: ${projectData.Vessel_Name}</span><br/>
             <span>Client: ${projectData.Client}</span><br/>
             <span>Start Date: ${projectData.startDate}</span>
           `;
