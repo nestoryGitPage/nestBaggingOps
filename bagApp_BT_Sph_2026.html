@@ -187,7 +187,7 @@
              </div>
            <div id="tableContainer" style="max-height: 75vh; overflow:scroll;margin-bottom: 0;">
   <table table1 id="myTable" class="table table-dark table-bordered "> 
-    <caption>SULPHUR OPERATIONS_2026</caption>
+    <caption>SULPHUR OPERATIONS_2026_<i>B/Terminal</i></caption>
     <thead style="text-align: center">
       <tr>
         <th>SNo</th>
@@ -672,7 +672,7 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
       actionBtn.addEventListener('click', AddData);
 
       modDate.value = "";
-      modProjectNo.value = projectBox.value || 0;
+      modProjectNo.value = "";
       modbagsDay.value = "";
       modbagsNight.value = "";
       modposter.value = posterInput.value;
@@ -695,7 +695,7 @@ actionBtn.replaceWith(actionBtn.cloneNode(true));
       actionBtn.addEventListener("click", UpdData);
 
       modDate.value = dateList[selectedIndex].dater;
-      modProjectNo.value = projectBox.value || 0;
+      modProjectNo.value = dateList[selectedIndex].ProjectNo;
       modbagsDay.value = dateList[selectedIndex].bagsDay;
       modbagsNight.value = dateList[selectedIndex].bagsNight;
       modposter.value = posterInput.value;
