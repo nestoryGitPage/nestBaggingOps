@@ -232,6 +232,11 @@
   <div>
     <img id="dcscLogo" src="imgsStore/dcscLogo.png" alt="DCSClogo">
   </div>
+  <div>
+    <button id="scrollToBottomBtn" style="display: none; width: 28px; height: 28px; background-color: #007bff; color: white; border: none; border-radius: 50%; cursor: pointer; font-size: 14px; display: flex; align-items: center; justify-content: center;" title="Scroll to Bottom">
+      <i class="fas fa-arrow-down"></i>
+    </button>
+  </div>
 </div>
 
 </div>
@@ -240,7 +245,7 @@
 
   <input readonly style=" width:fit-content;" type="text" id="posterInput" class="form-control mb-0" placeholder="Enter poster name">
  
-<div id="tablewrapper" style="max-height:70vh; min-height:40vh; overflow:auto; -webkit-overflow-scrolling: touch;">
+  <div id="tablewrapper" style="max-height:70vh; min-height:40vh; overflow:auto; -webkit-overflow-scrolling: touch;">
   <table id="myTable" class="table table-black table-striped table-bordered mt-0">
     <thead class="table-dark " style="text-align: center;">
       <tr>
@@ -1098,6 +1103,44 @@ document.getElementById("spn").onclick = function() {
 
 </script>
 
+<script>
+   function callem(){ 
+ let tbody1 = document.getElementById("tbody1");
+  let lastRow = tbody1.lastElementChild;
+
+  if (lastRow) {
+    lastRow.scrollIntoView({ behavior: "smooth" });
+  }   
+    
+  }
+
+  // Scroll to bottom functionality
+  const scrollToBottomBtn = document.getElementById("scrollToBottomBtn");
+  const tableContainer = document.getElementById("tablewrapper");
+
+  // Show/hide button based on scroll position
+  tableContainer.addEventListener("scroll", () => {
+    const scrollTop = tableContainer.scrollTop;
+    const scrollHeight = tableContainer.scrollHeight;
+    const clientHeight = tableContainer.clientHeight;
+    
+    // Show button if not at bottom (more than 100px from bottom)
+    if (scrollHeight - scrollTop - clientHeight > 100) {
+      scrollToBottomBtn.style.display = "block";
+    } else {
+      scrollToBottomBtn.style.display = "none";
+    }
+  });
+
+  // Scroll to bottom when button is clicked
+  scrollToBottomBtn.addEventListener("click", () => {
+    let tbody1 = document.getElementById("tbody1");
+    let lastRow = tbody1.lastElementChild;
+    if (lastRow) {
+      lastRow.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+</script>
 </body>
 
 </html>

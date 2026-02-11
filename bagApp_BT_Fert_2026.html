@@ -162,6 +162,11 @@
   <div>
 <img id="dcscLogo" src="imgsBag/dcscLogo.png" alt="DCSClogo">
   </div>
+  <div>
+    <button id="scrollToBottomBtn" style="display: none; width: 28px; height: 28px; background-color: #007bff; color: white; border: none; border-radius: 50%; cursor: pointer; font-size: 14px; display: flex; align-items: center; justify-content: center;" title="Scroll to Bottom">
+      <i class="fas fa-arrow-down"></i>
+    </button>
+  </div>
   </div>
 
   </div>
@@ -289,6 +294,7 @@ let monthNoFilter = document.getElementById('monthNoFilter');
   let sno = 0;
   let tbody1 = document.getElementById("tbody1");
   let selectedIndex = -1;
+  let autoScroll = true;
 
   const SelectAllDataRealtime = () => {
     const dbRef = ref(db, "Myset_Fert_BT_2026");
@@ -469,7 +475,7 @@ autoScroll = false;
     const posterMatch = selectedPosters.length === 0 || selectedPosters.includes(posterText);
     const weekNoMatch = selectedweekNo.length === 0 || selectedweekNo.includes(weekNoText);
     const monthNoMatch = selectedmonthNo.length === 0 || selectedmonthNo.includes(monthNoText);
-    const orangeMatch = selectedOrange.length === 0 || (selectedOrange.includes('with-orange') && hasOrange) || (selectedOrange.includes('without-orange') && !hasOrange);
+    const orangeMatch = selectedOrange.length === 0 || (selectedOrange.includes('Bus Fair') && hasOrange) || (selectedOrange.includes('None Fair') && !hasOrange);
 
     if (projectMatch && dateMatch && posterMatch && weekNoMatch && monthNoMatch && orangeMatch) {
       row.style.display = '';
@@ -604,7 +610,7 @@ createCheckboxes(getUniqueValues(1), dateFilter);  // Date
 createCheckboxes(getUniqueValues(7), posterFilter); // Poster
 createCheckboxes(getUniqueValues(2), weekNoFilter); // weekNo
 createCheckboxes(getUniqueValues(3), monthNoFilter); // monthNo
-createCheckboxes(['with-orange', 'without-orange'], orangeFilter); // Orange filter
+createCheckboxes(['Bus Fair', 'None Fair'], orangeFilter); // Orange filter
 //
 document.getElementById("unfilterImg").addEventListener("click", function() {
   // Uncheck all filter checkboxes
@@ -648,6 +654,10 @@ document.getElementById("unfilterImg").addEventListener("click", function() {
       posterInput.value = userName;
       SelectAllDataRealtime();
       updateTotals();
+      // Scroll to bottom after a short delay to ensure table is loaded
+      setTimeout(() => {
+        callem();
+      }, 500);
     } else {
       alert("No user ID found. Please go back to index page and enter your ID.");
       window.location.href = 'index.html';
@@ -845,6 +855,33 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
   }   
     
   }
+
+  // Scroll to bottom functionality
+  const scrollToBottomBtn = document.getElementById("scrollToBottomBtn");
+  const tableContainer = document.getElementById("tableContainer");
+
+  // Show/hide button based on scroll position
+  tableContainer.addEventListener("scroll", () => {
+    const scrollTop = tableContainer.scrollTop;
+    const scrollHeight = tableContainer.scrollHeight;
+    const clientHeight = tableContainer.clientHeight;
+    
+    // Show button if not at bottom (more than 100px from bottom)
+    if (scrollHeight - scrollTop - clientHeight > 100) {
+      scrollToBottomBtn.style.display = "block";
+    } else {
+      scrollToBottomBtn.style.display = "none";
+    }
+  });
+
+  // Scroll to bottom when button is clicked
+  scrollToBottomBtn.addEventListener("click", () => {
+    let tbody1 = document.getElementById("tbody1");
+    let lastRow = tbody1.lastElementChild;
+    if (lastRow) {
+      lastRow.scrollIntoView({ behavior: "smooth" });
+    }
+  });
 
   ////
 
