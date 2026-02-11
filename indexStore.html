@@ -173,6 +173,27 @@
             © 2026 DCSC Management System.
         </div>
     </div>
+  <!-- ADD THIS MODAL HTML -->
+<div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0" style="background-color: #2d3748;">
+            <div class="modal-header border-0 pb-0">
+                <h5 class="modal-title text-white">System Access</h5>
+            </div>
+            <div class="modal-body">
+                <p style="color: #a0aec0;">Enter your passCode to continue:</p>
+                <input type="password" id="passcodeInput" class="form-control mb-2" 
+                       style="background: #1a202c; color: white; border: 1px solid #4a5568;">
+                <div id="errorMsg" class="text-danger small" style="display:none;">Invalid Passcode!</div>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" id="loginBtn" class="btn btn-primary w-100" style="background-color: #2b6cb0;">Verify</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module">
@@ -192,31 +213,36 @@
       const app = initializeApp(firebaseConfig);
       const db = getDatabase(app);
 
-      function askForId() {
-        const posterId = prompt("Enter your ID:");
+      // ADD THIS LOGIC
+const myModal = new bootstrap.Modal(document.getElementById('loginModal'));
 
-        if (posterId) {
-          const idRef = ref(db, 'UserIds/' + posterId);
+// Show the modal when the page loads
+window.addEventListener('load', () => {
+    myModal.show();
+});
 
-          get(idRef).then((snapshot) => {
+document.getElementById('loginBtn').addEventListener('click', () => {
+    const posterId = document.getElementById('passcodeInput').value;
+    const errorMsg = document.getElementById('errorMsg');
+
+    if (posterId) {
+        const idRef = ref(db, 'UserIds/' + posterId);
+        get(idRef).then((snapshot) => {
             if (snapshot.exists()) {
-              // Store both ID and user name in sessionStorage
-              sessionStorage.setItem('userId', posterId);
-              sessionStorage.setItem('userName', snapshot.val());
-              sessionStorage.setItem('isAuthenticated', 'true');
+                sessionStorage.setItem('userId', posterId);
+                sessionStorage.setItem('userName', snapshot.val());
+                sessionStorage.setItem('isAuthenticated', 'true');
+                myModal.hide(); // Close modal on success
             } else {
-              alert("ID not recognized. Try again.");
-              askForId();
+                errorMsg.style.display = 'block';
+                document.getElementById('passcodeInput').value = '';
             }
-          }).catch((error) => {
-            console.error("Error fetching ID:", error);
-          });
-        } else {
-          askForId();
-        }
-      }
+        });
+    }
+});
 
-      window.addEventListener('load', askForId);
+
+      
     </script>
 </body>
 </html>
