@@ -213,33 +213,64 @@
       const app = initializeApp(firebaseConfig);
       const db = getDatabase(app);
 
-      // ADD THIS LOGIC
-const myModal = new bootstrap.Modal(document.getElementById('loginModal'));
+// ADD THIS REVISED LOGIC
+const modalElement = document.getElementById('loginModal');
+const myModal = new bootstrap.Modal(modalElement);
+const passcodeInput = document.getElementById('passcodeInput');
+const loginBtn = document.getElementById('loginBtn');
 
-// Show the modal when the page loads
-window.addEventListener('load', () => {
-    myModal.show();
+// Show modal on load
+window.addEventListener('load', () => myModal.show());
+
+// FOCUS: Focus input when modal is fully visible
+modalElement.addEventListener('shown.bs.modal', () => {
+    passcodeInput.focus();
 });
 
-document.getElementById('loginBtn').addEventListener('click', () => {
-    const posterId = document.getElementById('passcodeInput').value;
-    const errorMsg = document.getElementById('errorMsg');
+// ENTER KEY: Click the button when Enter is pressed
+passcodeInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') loginBtn.click();
+});
 
+// VERIFY LOGIC
+// ADD THIS IMPROVED VERIFY LOGIC
+loginBtn.addEventListener('click', () => {
+    const posterId = passcodeInput.value;
+    const errorMsg = document.getElementById('errorMsg');
+    
     if (posterId) {
+        // Change UI to Loading State
+        loginBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Verifying...';
+        loginBtn.disabled = true;
+        errorMsg.style.display = 'none';
+
         const idRef = ref(db, 'UserIds/' + posterId);
+        
         get(idRef).then((snapshot) => {
             if (snapshot.exists()) {
                 sessionStorage.setItem('userId', posterId);
                 sessionStorage.setItem('userName', snapshot.val());
                 sessionStorage.setItem('isAuthenticated', 'true');
-                myModal.hide(); // Close modal on success
+                myModal.hide();
             } else {
+                // Reset UI on Error
                 errorMsg.style.display = 'block';
-                document.getElementById('passcodeInput').value = '';
+                passcodeInput.value = '';
+                loginBtn.innerHTML = 'Verify';
+                loginBtn.disabled = false;
+                passcodeInput.focus();
             }
+        }).catch((error) => {
+            // Handle Network Issues
+            console.error(error);
+            loginBtn.innerHTML = 'Verify';
+            loginBtn.disabled = false;
+            alert("Connection error. Please try again.");
         });
     }
 });
+
+
 
 
       
