@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Quick Attendance</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    
+    <!-- Firebase Libraries -->
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 20px; background: #eee; }
-        .box { background: white; padding: 20px; border-radius: 10px; max-width: 300px; margin: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        input { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
-        button { width: 95%; padding: 12px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
-        #log { margin-top: 15px; font-size: 13px; color: #666; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .box { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.15); width: 100%; max-width: 350px; text-align: center; }
+        h2 { color: #333; margin-bottom: 20px; }
+        input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; font-size: 16px; }
+        button { width: 100%; padding: 12px; background: #007bff; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        button:hover { background: #0056b3; }
+        #log { margin-top: 20px; font-size: 14px; font-weight: bold; line-height: 1.6; }
+        .red { color: #d9534f; }
+        .green { color: #28a745; }
     </style>
 </head>
 <body>
 
 <div class="box">
-    <h3>Attendance5</h3>
+    <h2>Attendance6</h2>
     <input type="text" id="idInput" placeholder="Enter Employee ID">
-    <button onclick="submitAttendance()">SUBMIT NOW</button>
+    <button onclick="startProcess()">SUBMIT NOW</button>
     <div id="log">Status: Ready</div>
 </div>
 
 <script>
-    // 1. Firebase Config
+    // 1. YOUR FIREBASE CONFIG
     const firebaseConfig = {
         apiKey: "AIzaSyD3z31oVHe-yJGZ7t48QCBULTSMhXOpIw0",
         authDomain: "nestounused2.firebaseapp.com",
@@ -33,55 +41,112 @@
         messagingSenderId: "768189081765",
         appId: "1:768189081765:web:7bf62aaf16bb713f28454c"
     };
+
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
+    // 2. COORDINATES & RADIUS
     const OFFICE = { lat: -6.831589, lon: 39.287792 };
+    const ALLOWED_RADIUS_KM = 3.0;
 
-    function submitAttendance() {
-        const id = document.getElementById('idInput').value.trim();
+    function updateLog(msg, isError = false) {
         const log = document.getElementById('log');
-        if(!id) return alert("Please enter ID");
+        log.className = isError ? "red" : "green";
+        log.innerText = msg;
+    }
 
-        log.innerText = "Step 1: Checking Location...";
-        
-        // Use a timeout so it doesn't hang forever
-        navigator.geolocation.getCurrentPosition((pos) => {
-            log.innerText = "Step 2: Checking ID...";
-            
-            // 1. Check Distance (Simple Math)
-            const dist = Math.sqrt(Math.pow(pos.coords.latitude - OFFICE.lat, 2) + Math.pow(pos.coords.longitude - OFFICE.lon, 2)) * 111; 
-            
-            if(dist > 3) { // 3 KM limit
-                log.innerHTML = "<b style='color:red'>REJECTED: Too far from office.</b>";
+    // Main Function called by button
+    async function startProcess() {
+        const id = document.getElementById('idInput').value.trim();
+        if(!id) return alert("Enter ID");
+
+        updateLog("Checking Location...");
+
+        // Step 1: Check GPS
+        navigator.geolocation.getCurrentPosition(async (pos) => {
+            const uLat = pos.coords.latitude;
+            const uLon = pos.coords.longitude;
+
+            // Simple distance math (Haversine)
+            const R = 6371;
+            const dLat = (uLat - OFFICE.lat) * Math.PI/180;
+            const dLon = (uLon - OFFICE.lon) * Math.PI/180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(OFFICE.lat * Math.PI/180) * Math.cos(uLat * Math.PI/180) * 
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const dist = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+            if(dist > ALLOWED_RADIUS_KM) {
+                updateLog("REJECTED: Outside 3KM Office Zone.", true);
                 return;
             }
 
-            // 2. Check Firebase ID
-            db.ref('Employees/' + id).once('value', snap => {
-                if(snap.exists()) {
-                    const name = snap.val();
-                    const now = new Date();
-                    const date = now.toISOString().split('T')[0];
-                    const time = now.toLocaleTimeString();
+            updateLog("Location OK. Checking ID...");
 
-                    db.ref(`Attendance/${date}/${id}`).update({
-                        name: name,
-                        time: time,
-                        type: "Entry/Exit"
-                    }).then(() => {
-                        alert("SUCCESS! Recorded at " + time);
-                        location.reload();
-                    });
+            // Step 2: Check ID in Firebase
+            try {
+                const snap = await db.ref('Employees/' + id).once('value');
+                if(snap.exists()) {
+                    const empName = snap.val();
+                    recordAttendance(id, empName); // <-- Calling the function below
                 } else {
-                    log.innerHTML = "<b style='color:red'>REJECTED: ID not found.</b>";
+                    updateLog("REJECTED: ID Not Found in Database.", true);
                 }
-            });
+            } catch(e) {
+                updateLog("Error: Database connection failed.", true);
+            }
 
         }, (err) => {
-            log.innerHTML = "<b style='color:red'>Error: Location blocked or timed out.</b>";
-            alert("Please ensure GPS is ON and you are using HTTPS.");
-        }, { timeout: 10000 }); // 10 second timeout
+            updateLog("Error: Location access denied. Enable GPS.", true);
+        }, { timeout: 10000 });
+    }
+
+    // Step 3: THE RECORDING FUNCTION (captures data for HR table)
+    function recordAttendance(empId, empName) {
+        const now = new Date();
+        const dateKey = now.toISOString().split('T')[0];
+        const timestamp = now.getTime();
+        const timeStr = now.toLocaleTimeString();
+        
+        const attendRef = db.ref(`Attendance/${dateKey}/${empId}`);
+
+        attendRef.once('value').then(snap => {
+            if (!snap.exists()) {
+                // First click: SIGN IN
+                attendRef.set({
+                    id: empId,
+                    name: empName,
+                    date: dateKey,
+                    timeIn: timeStr,
+                    timeInRaw: timestamp,
+                    timeOut: "--",
+                    totalHours: "0"
+                }).then(() => {
+                    alert("Welcome " + empName + "! Signed In at " + timeStr);
+                    location.reload();
+                });
+            } else {
+                // Second click: SIGN OUT
+                const data = snap.val();
+                
+                // If they already signed out, don't update again
+                if(data.timeOut !== "--") {
+                    alert("You have already signed out for today.");
+                    return;
+                }
+
+                const diffMs = timestamp - data.timeInRaw;
+                const diffHrs = (diffMs / (1000 * 60 * 60)).toFixed(2);
+
+                attendRef.update({
+                    timeOut: timeStr,
+                    totalHours: diffHrs
+                }).then(() => {
+                    alert("Sign-out Successful! Total hours today: " + diffHrs);
+                    location.reload();
+                });
+            }
+        });
     }
 </script>
 
