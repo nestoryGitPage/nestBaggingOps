@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Attendance - Location Based</title>
+    
+    <!-- Firebase Compatibility Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 350px; text-align: center; }
+        input { width: 100%; padding: 15px; margin: 15px 0; border: 1px solid #ddd; border-radius: 8px; font-size: 18px; box-sizing: border-box; }
+        .btn { width: 100%; padding: 15px; border: none; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .btn-verify { background-color: #007bff; color: white; }
+        .btn-signin { background-color: #28a745; color: white; display: none; }
+        #status { margin-top: 20px; font-size: 14px; color: #555; line-height: 1.5; }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 20px; height: 20px; animation: spin 2s linear infinite; display: inline-block; vertical-align: middle; margin-right: 10px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2 id="title">Attendance Portal</h2>
+    
+    <input type="text" id="empID" placeholder="Enter Employee ID">
+    
+    <button id="verifyBtn" class="btn btn-verify" onclick="checkLocationAndID()">Verify My Location</button>
+    <button id="signInBtn" class="btn btn-signin" onclick="processAttendance()">Submit Attendance</button>
+
+    <div id="status">Please enter your ID and click verify.</div>
+</div>
+
+<script>
+    // 1. YOUR FIREBASE CONFIG
+    const firebaseConfig = {
+        apiKey: "AIzaSyD3z31oVHe-yJGZ7t48QCBULTSMhXOpIw0",
+        authDomain: "nestounused2.firebaseapp.com",
+        databaseURL: "https://nestounused2-default-rtdb.firebaseio.com",
+        projectId: "nestounused2",
+        storageBucket: "nestounused2.firebasestorage.app",
+        messagingSenderId: "768189081765",
+        appId: "1:768189081765:web:7bf62aaf16bb713f28454c"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    // 2. OFFICE LOCATIONS (Update these!)
+    const OFFICES = [
+        { name: "Main Office", lat: -6.7924, lon: 39.2083 }, 
+        { name: "Branch Office", lat: -6.8235, lon: 39.2673 }
+    ];
+    const RADIUS_METERS = 300; // Allowed distance from office
+
+    let globalEmpID = "";
+    let globalEmpName = "";
+
+    function updateStatus(msg, isError = false) {
+        const el = document.getElementById('status');
+        el.style.color = isError ? "#d9534f" : "#28a745";
+        el.innerHTML = msg;
+    }
+
+    // Haversine formula
+    function getDistance(lat1, lon1, lat2, lon2) {
+        const R = 6371e3; // metres
+        const φ1 = lat1 * Math.PI/180;
+        const φ2 = lat2 * Math.PI/180;
+        const Δφ = (lat2-lat1) * Math.PI/180;
+        const Δλ = (lon2-lon1) * Math.PI/180;
+        const a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
+                  Math.cos(φ1) * Math.cos(φ2) *
+                  Math.sin(Δλ/2) * Math.sin(Δλ/2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        return R * c;
+    }
+
+    async function checkLocationAndID() {
+        const id = document.getElementById('empID').value.trim();
+        if(!id) return alert("Enter Employee ID");
+
+        updateStatus('<div class="loader"></div> Verifying location...');
+
+        // 1. Get GPS
+        navigator.geolocation.getCurrentPosition(async (pos) => {
+            const uLat = pos.coords.latitude;
+            const uLon = pos.coords.longitude;
+
+            let foundOffice = null;
+            OFFICES.forEach(off => {
+                if(getDistance(uLat, uLon, off.lat, off.lon) <= RADIUS_METERS) {
+                    foundOffice = off;
+                }
+            });
+
+            if(!foundOffice) {
+                updateStatus("❌ Error: You are not at the office location.", true);
+                return;
+            }
+
+            // 2. Check Firebase
+            const snapshot = await db.ref('Employees/' + id).once('value');
+            if(snapshot.exists()) {
+                globalEmpID = id;
+                globalEmpName = snapshot.val();
+                
+                document.getElementById('verifyBtn').style.display = 'none';
+                document.getElementById('signInBtn').style.display = 'block';
+                document.getElementById('empID').disabled = true;
+                
+                updateStatus(`✅ Location Verified! <br><strong>Welcome, ${globalEmpName}</strong><br>Location: ${foundOffice.name}`);
+            } else {
+                updateStatus("❌ Error: Employee ID not found.", true);
+            }
+
+        }, (err) => {
+            updateStatus("❌ Error: Please enable GPS/Location services.", true);
+        }, { enableHighAccuracy: true });
+    }
+
+    function processAttendance() {
+        const now = new Date();
+        const dateKey = now.toISOString().split('T')[0];
+        const timeStr = now.toLocaleTimeString();
+        
+        const ref = db.ref(`Attendance/${dateKey}/${globalEmpID}`);
+
+        ref.once('value').then(snap => {
+            if(!snap.exists()) {
+                // Sign In
+                ref.set({
+                    name: globalEmpName,
+                    signIn: timeStr,
+                    signOut: "--",
+                    status: "Present"
+                }).then(() => alert("Check-in Successful!"));
+            } else {
+                // Sign Out
+                ref.update({ signOut: timeStr }).then(() => alert("Check-out Successful!"));
+            }
+            location.reload();
+        });
+    }
+</script>
+
+</body>
+</html>
