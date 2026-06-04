@@ -1,44 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <title>Quick Attendance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Attendance Portal</title>
-    
-    <!-- Firebase Libraries -->
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
-
     <style>
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
-        .attendance-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 380px; text-align: center; }
-        h2 { color: #333; margin-bottom: 20px; }
-        input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; box-sizing: border-box; }
-        .btn { width: 100%; padding: 12px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: 0.2s; font-weight: bold; }
-        .btn-primary { background: #007bff; color: white; }
-        .btn-success { background: #28a745; color: white; display: none; margin-top: 10px; }
-        #status-msg { margin-top: 15px; font-size: 14px; min-height: 20px; }
-        .error { color: #d9534f; font-weight: bold; }
-        .success { color: #28a745; font-weight: bold; }
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #eee; }
+        .box { background: white; padding: 20px; border-radius: 10px; max-width: 300px; margin: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        input { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { width: 95%; padding: 12px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        #log { margin-top: 15px; font-size: 13px; color: #666; }
     </style>
 </head>
 <body>
 
-<div class="attendance-card">
-    <h2>Attendance Portal3</h2>
-    
-    <input type="text" id="empID" placeholder="Enter Employee ID">
-    
-    <button id="verifyBtn" class="btn btn-primary" onclick="startVerification()">Verify Location & ID</button>
-    
-    <!-- This button only appears if location and ID are both valid -->
-    <button id="signInBtn" class="btn btn-success" onclick="recordAttendance()">Submit Attendance</button>
-
-    <div id="status-msg"></div>
+<div class="box">
+    <h3>Attendance5</h3>
+    <input type="text" id="idInput" placeholder="Enter Employee ID">
+    <button onclick="submitAttendance()">SUBMIT NOW</button>
+    <div id="log">Status: Ready</div>
 </div>
 
 <script>
-    // 1. Firebase Configuration
+    // 1. Firebase Config
     const firebaseConfig = {
         apiKey: "AIzaSyD3z31oVHe-yJGZ7t48QCBULTSMhXOpIw0",
         authDomain: "nestounused2.firebaseapp.com",
@@ -48,112 +33,55 @@
         messagingSenderId: "768189081765",
         appId: "1:768189081765:web:7bf62aaf16bb713f28454c"
     };
-
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
-    // 2. Constants (Your exact coordinates and 3KM radius)
-    const OFFICE_LAT = -6.831589639935864;
-    const OFFICE_LON = 39.28779208153666;
-    const ALLOWED_RADIUS_KM = 3.0;
+    const OFFICE = { lat: -6.831589, lon: 39.287792 };
 
-    let validatedEmpID = "";
-    let validatedEmpName = "";
+    function submitAttendance() {
+        const id = document.getElementById('idInput').value.trim();
+        const log = document.getElementById('log');
+        if(!id) return alert("Please enter ID");
 
-    const statusEl = document.getElementById('status-msg');
-    const signInBtn = document.getElementById('signInBtn');
-    const verifyBtn = document.getElementById('verifyBtn');
-
-    // Haversine distance calculator
-    function getDistance(lat1, lon1, lat2, lon2) {
-        const R = 6371; // Radius of the earth in km
-        const dLat = (lat2 - lat1) * Math.PI / 180;
-        const dLon = (lon2 - lon1) * Math.PI / 180;
-        const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                  Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-                  Math.sin(dLon / 2) * Math.sin(dLon / 2);
-        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        return R * c; 
-    }
-
-    async function startVerification() {
-        const inputID = document.getElementById('empID').value.trim();
-        if(!inputID) return alert("Please enter your Employee ID first.");
-
-        statusEl.className = "";
-        statusEl.innerText = "Checking Location...";
-
-        // Step 1: Check Geolocation
-        navigator.geolocation.getCurrentPosition(async (pos) => {
-            const userLat = pos.coords.latitude;
-            const userLon = pos.coords.longitude;
-
-            const distance = getDistance(userLat, userLon, OFFICE_LAT, OFFICE_LON);
-
-            if (distance > ALLOWED_RADIUS_KM) {
-                statusEl.className = "error";
-                statusEl.innerText = `REJECTED: You are outside the 3KM office zone (${distance.toFixed(2)} km away).`;
+        log.innerText = "Step 1: Checking Location...";
+        
+        // Use a timeout so it doesn't hang forever
+        navigator.geolocation.getCurrentPosition((pos) => {
+            log.innerText = "Step 2: Checking ID...";
+            
+            // 1. Check Distance (Simple Math)
+            const dist = Math.sqrt(Math.pow(pos.coords.latitude - OFFICE.lat, 2) + Math.pow(pos.coords.longitude - OFFICE.lon, 2)) * 111; 
+            
+            if(dist > 3) { // 3 KM limit
+                log.innerHTML = "<b style='color:red'>REJECTED: Too far from office.</b>";
                 return;
             }
 
-            // Step 2: Strict ID Verification from Firebase
-            statusEl.innerText = "Verifying ID...";
-            const snapshot = await db.ref('Employees/' + inputID).once('value');
+            // 2. Check Firebase ID
+            db.ref('Employees/' + id).once('value', snap => {
+                if(snap.exists()) {
+                    const name = snap.val();
+                    const now = new Date();
+                    const date = now.toISOString().split('T')[0];
+                    const time = now.toLocaleTimeString();
 
-            if (snapshot.exists()) {
-                // SUCCESS: Valid ID and Valid Location
-                validatedEmpID = inputID;
-                validatedEmpName = snapshot.val();
-                
-                statusEl.className = "success";
-                statusEl.innerHTML = `Welcome, ${validatedEmpName}!<br>Location verified. Press below to sign in/out.`;
-                
-                // Show the attendance button and hide verify
-                verifyBtn.style.display = 'none';
-                signInBtn.style.display = 'block';
-                document.getElementById('empID').disabled = true;
-
-            } else {
-                // REJECTED: ID doesn't exist in Firebase
-                statusEl.className = "error";
-                statusEl.innerText = "REJECTED: Invalid Employee ID. Access Denied.";
-            }
+                    db.ref(`Attendance/${date}/${id}`).update({
+                        name: name,
+                        time: time,
+                        type: "Entry/Exit"
+                    }).then(() => {
+                        alert("SUCCESS! Recorded at " + time);
+                        location.reload();
+                    });
+                } else {
+                    log.innerHTML = "<b style='color:red'>REJECTED: ID not found.</b>";
+                }
+            });
 
         }, (err) => {
-            statusEl.className = "error";
-            statusEl.innerText = "Error: Location access denied. Please enable GPS.";
-        }, { enableHighAccuracy: true });
-    }
-
-    function recordAttendance() {
-        const now = new Date();
-        const dateKey = now.toISOString().split('T')[0]; // YYYY-MM-DD
-        const timeStr = now.toLocaleTimeString();
-        
-        const attendRef = db.ref(`Attendance/${dateKey}/${validatedEmpID}`);
-
-        attendRef.once('value').then(snap => {
-            if (!snap.exists()) {
-                // First action of the day: Sign In
-                attendRef.set({
-                    name: validatedEmpName,
-                    signIn: timeStr,
-                    signOut: "--",
-                    status: "Present"
-                }).then(() => {
-                    alert(`Checked In Successfully at ${timeStr}`);
-                    location.reload();
-                });
-            } else {
-                // Second action: Sign Out
-                attendRef.update({
-                    signOut: timeStr
-                }).then(() => {
-                    alert(`Checked Out Successfully at ${timeStr}`);
-                    location.reload();
-                });
-            }
-        });
+            log.innerHTML = "<b style='color:red'>Error: Location blocked or timed out.</b>";
+            alert("Please ensure GPS is ON and you are using HTTPS.");
+        }, { timeout: 10000 }); // 10 second timeout
     }
 </script>
 
