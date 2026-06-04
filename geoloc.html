@@ -24,7 +24,7 @@
 <body>
 
 <div class="box">
-    <h2>Attendance6</h2>
+    <h2>Attendance</h2>
     <input type="text" id="idInput" placeholder="Enter Employee ID">
     <button onclick="startProcess()">SUBMIT NOW</button>
     <div id="log">Status: Ready</div>
@@ -47,7 +47,7 @@
 
     // 2. COORDINATES & RADIUS
     const OFFICE = { lat: -6.831589, lon: 39.287792 };
-    const ALLOWED_RADIUS_KM = 3.0;
+    const ALLOWED_RADIUS_KM = 0.5; // 500 meters
 
     function updateLog(msg, isError = false) {
         const log = document.getElementById('log');
@@ -77,7 +77,7 @@
             const dist = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
             if(dist > ALLOWED_RADIUS_KM) {
-                updateLog("REJECTED: Outside 3KM Office Zone.", true);
+                updateLog("REJECTED: Outside 500m Office Zone.", true);
                 return;
             }
 
