@@ -46,8 +46,8 @@
     const db = firebase.database();
 
     // 2. COORDINATES & RADIUS
-    const OFFICE = { lat: -6.831589, lon: 39.287792 };
-    const ALLOWED_RADIUS_KM = 0.2; // 500 meters
+    const OFFICE = { lat: -6.832060, lon: 39.287627 };
+    const ALLOWED_RADIUS_KM = 0.05; // 50 meters
 
     function updateLog(msg, isError = false) {
         const log = document.getElementById('log');
@@ -77,7 +77,7 @@
             const dist = R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
             if(dist > ALLOWED_RADIUS_KM) {
-                updateLog("REJECTED: Outside 500m Office Zone.", true);
+                updateLog("REJECTED: Outside 50m Office Zone.", true);
                 return;
             }
 
